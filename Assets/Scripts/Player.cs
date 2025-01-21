@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEditor.Animations;
 using UnityEngine;
 
@@ -5,19 +6,20 @@ public class Player : MonoBehaviour
 {
     [Header("Float Controls")]
     [SerializeField] private float hoverSpeed = 2.0f;
-    [SerializeField] private float hoverAmp = 0.5f;
+    [SerializeField] private float hoverAmp = 0.1f;
     private float startY;
 
     [Header("Movement")]
     [SerializeField] private float moveSpeed = 5.0f;
     [SerializeField] private float drag = 2.0f;
     [SerializeField] private float maxVelocity = 10.0f;
-    private Vector3 velocity;
-    private Vector3 inputDir;
-    private bool isInputing = false;
+    [SerializeField] private Vector2 velocity;
+    private Vector2 targetPosition;
+    private bool hasTarget = false;
 
     [Header("Animation")]
     [SerializeField] private Animator animController;
+    [SerializeField] private SpriteRenderer spriteRenderer;
 
     private void Awake()
     {
@@ -27,43 +29,74 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        float h = Input.GetAxis("Horizontal");
-        float v = Input.GetAxis("Vertical");
+        MouseInput();
+        MoveTo();
+        Floating();
+        FlipSprite();
+    }
 
-        inputDir= new Vector3(h, v, 0).normalized;
-
-        if (inputDir.magnitude > 0)
+    private void MouseInput()
+    {
+        if (Input.GetMouseButtonDown(0))
         {
-            velocity += inputDir * moveSpeed * Time.deltaTime;
+            // Get the mouse position in screen space and convert to world space
+            Vector3 mouseWorldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-            isInputing = true;
-            animController.speed = 2.0f;
+            // Use only the X and Y components for 2D movement
+            targetPosition = new Vector2(mouseWorldPosition.x, mouseWorldPosition.y);
+
+            hasTarget = true;
+        }
+    }
+
+    private void MoveTo()
+    {
+        if (hasTarget)
+        {
+            Vector2 direction = (targetPosition - (Vector2)transform.position).normalized;
+
+            // Apply force in the direction of the target
+            velocity += direction * moveSpeed * Time.deltaTime;
+
+            // Apply drag to simulate water resistance
+            velocity = Vector2.Lerp(velocity, Vector2.zero, drag * Time.deltaTime);
+
+            velocity = Vector2.ClampMagnitude(velocity, maxVelocity);
+
+            transform.position = new Vector2(
+                transform.position.x + velocity.x * Time.deltaTime,
+                transform.position.y + velocity.y * Time.deltaTime
+            );
+
+            // Check if the player is close to the target and stop if close enough
+            if (Vector2.Distance(transform.position, targetPosition) < 0.1f)
+            {
+                startY = transform.position.y;
+                hasTarget = false;
+                velocity = Vector2.zero;
+            }
         }
         else
         {
-            // TODO: Add method for waiting until drag is over to prevent stutter
-            if (isInputing)
-            {
-                startY = transform.position.y;
-            }
-            isInputing = false;
-            Floating();
-            animController.speed = 1.0f;
+            // Apply drag to stop completely when no target
+            velocity = Vector2.Lerp(velocity, Vector2.zero, drag * Time.deltaTime);
         }
-
-        // Apply drag for water resistance
-        velocity = Vector3.Lerp(velocity, Vector3.zero, drag * Time.deltaTime);
-
-        // Clamp velocity
-        velocity = Vector3.ClampMagnitude(velocity, maxVelocity);
-
-        // Move
-        transform.position += velocity * Time.deltaTime;
     }
 
     protected void Floating()
     {
-        float newY = startY + Mathf.Sin(Time.time * hoverSpeed) * hoverAmp;
-        transform.position = new Vector2(transform.position.x, newY);
+        if (!hasTarget)
+        {
+            float newY = startY + Mathf.Sin(Time.time * hoverSpeed) * hoverAmp;
+            transform.position = new Vector2(transform.position.x, newY);
+        }
+    }
+
+    protected void FlipSprite()
+    {
+        if (velocity.x > 0)
+            spriteRenderer.flipX = true;
+        else
+            spriteRenderer.flipX = false;
     }
 }
