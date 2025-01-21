@@ -1,3 +1,4 @@
+using System.Collections;
 using TMPro;
 using UnityEditor.Animations;
 using UnityEngine;
@@ -21,9 +22,13 @@ public class Player : MonoBehaviour
     [SerializeField] private Animator animController;
     [SerializeField] private SpriteRenderer spriteRenderer;
 
+    [Header("Particles")]
+    [SerializeField] private ParticleSystem particleSystem;
+
     private void Awake()
     {
         startY = transform.position.y;
+        StartCoroutine(PlayBubbles());
         return;
     }
 
@@ -98,5 +103,15 @@ public class Player : MonoBehaviour
             spriteRenderer.flipX = true;
         else
             spriteRenderer.flipX = false;
+    }
+
+    IEnumerator PlayBubbles()
+    {
+        while(true)
+        {
+            float waitTime = Random.Range(4.0f, 8.0f);
+            yield return new WaitForSeconds(waitTime);
+            particleSystem.Play();
+        }
     }
 }
