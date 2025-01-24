@@ -99,4 +99,14 @@ public class Conveyor : MonoBehaviour
 
         sendRoutine = null;
     }
+
+    public void AddCup(GameObject bc)
+    {
+        if (held == null)
+        {
+            GameObject go = Instantiate(bc);
+            go.transform.position = transform.position;
+            AddHeld(go.GetComponent<BobaController>());
+        }
+    }
 }

@@ -27,10 +27,20 @@ public class PlayerController : MonoBehaviour
     {
         if (clickCooldownRoutine == null)
         {
-            GameObject go = Instantiate(instantiator);
             Vector3 worldPosition = Camera.main.ScreenToWorldPoint(clickPosition);
-            worldPosition.z = 0f;
-            go.transform.position = worldPosition;
+
+            RaycastHit2D hit = Physics2D.Raycast(worldPosition, Vector3.forward);
+
+            if (hit)
+            {
+                if (hit.transform.GetComponent<Clickable>())
+                {
+                    hit.transform.GetComponent<Clickable>().TakeClick();
+                }
+            }
+
+            //GameObject go = Instantiate(instantiator);
+            //go.transform.position = worldPosition;
             clickCooldownRoutine = StartCoroutine(ClickCooldown());
         }
     }
