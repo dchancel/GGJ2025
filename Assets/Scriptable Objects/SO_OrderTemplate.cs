@@ -3,9 +3,15 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "SO_OrderTemplate", menuName = "Scriptable Objects/Drinks/Order Template")]
 public class SO_OrderTemplate : ScriptableObject
 {
+    public CupSpriteMapping cupSprite;
     public MixerSpriteMapping[] mixerSprites;
     public SolidsSpriteMapping[] solidsSprites;
-    public IceSpriteMapping[] iceSprites;
+    public IceSpriteMapping iceSprite;
+
+    public Sprite GetCupSprite()
+    {
+        return cupSprite.sprite;
+    }
 
     public Sprite GetMixerSprite(MixerType mixer)
     {
@@ -27,13 +33,8 @@ public class SO_OrderTemplate : ScriptableObject
         return null;
     }
 
-    public Sprite GetIceSprite(IceOption ice)
+    public Sprite GetIceSprite()
     {
-        foreach (var mapping in iceSprites)
-        {
-            if (mapping.iceOption == ice)
-                return mapping.sprite;
-        }
-        return null;
+        return iceSprite.sprite;
     }
 }

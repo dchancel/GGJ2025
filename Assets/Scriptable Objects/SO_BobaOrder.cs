@@ -5,14 +5,20 @@ public class SO_BobaOrder : ScriptableObject
 {
     public SO_OrderTemplate baseTemplate;
 
-    public MixerType mixer;
-    public SolidsType solids;
-    public IceOption ice;
-
     public bool cup = true;
     public string baseType = "Tea";
+
+    public MixerType mixer;
+    public SolidsType solids;
+
     public bool lid = true;
+    public bool ice = true;
     public bool shaken = true;
+
+    public Sprite GetCupSprite()
+    {
+        return baseTemplate?.GetCupSprite();
+    }
 
     public Sprite GetMixerSprite()
     {
@@ -26,6 +32,6 @@ public class SO_BobaOrder : ScriptableObject
 
     public Sprite GetIceSprite()
     {
-        return baseTemplate?.GetIceSprite(ice);
+        return baseTemplate?.GetIceSprite();
     }
 }

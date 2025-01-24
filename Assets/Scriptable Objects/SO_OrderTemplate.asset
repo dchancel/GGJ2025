@@ -12,12 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7eb43a0278949db83c983c1f5c79ea, type: 3}
   m_Name: SO_OrderTemplate
   m_EditorClassIdentifier: 
+  cupSprite:
+    sprite: {fileID: 3877512232568693843, guid: 355772a4c00b7fe498cb5ff1bdc7d2f3, type: 3}
   mixerSprites:
   - mixerType: 0
     sprite: {fileID: 0}
   - mixerType: 1
-    sprite: {fileID: -5110731548806032159, guid: 801ea2a99780b4c0292da04c6acea91f, type: 3}
+    sprite: {fileID: 8433277603000179338, guid: 355772a4c00b7fe498cb5ff1bdc7d2f3, type: 3}
   - mixerType: 2
-    sprite: {fileID: 2791105872119289076, guid: 356407a642a4443cc853ae9831cf5da1, type: 3}
-  solidsSprites: []
-  iceSprites: []
+    sprite: {fileID: -4685487550256835311, guid: 355772a4c00b7fe498cb5ff1bdc7d2f3, type: 3}
+  solidsSprites:
+  - solidsType: 0
+    sprite: {fileID: 0}
+  - solidsType: 1
+    sprite: {fileID: 84099585364434595, guid: 355772a4c00b7fe498cb5ff1bdc7d2f3, type: 3}
+  - solidsType: 2
+    sprite: {fileID: 761132007376096468, guid: 355772a4c00b7fe498cb5ff1bdc7d2f3, type: 3}
+  iceSprite:
+    sprite: {fileID: 5842337000587559677, guid: 355772a4c00b7fe498cb5ff1bdc7d2f3, type: 3}

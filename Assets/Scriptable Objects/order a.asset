@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: order a
   m_EditorClassIdentifier: 
   baseTemplate: {fileID: 11400000, guid: 68325aed46b2e419bb54f1f811be5217, type: 2}
-  mixer: 1
-  solids: 0
-  ice: 0
   cup: 1
   baseType: Tea
+  mixer: 1
+  solids: 1
   lid: 1
+  ice: 1
   shaken: 1

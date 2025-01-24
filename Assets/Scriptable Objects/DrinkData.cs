@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using UnityEngine;
 
 public enum MixerType
@@ -14,10 +15,10 @@ public enum SolidsType
     Fruit
 }
 
-public enum IceOption
+[System.Serializable]
+public class CupSpriteMapping
 {
-    Yes,
-    No
+    public Sprite sprite;
 }
 
 [System.Serializable]
@@ -37,6 +38,5 @@ public class SolidsSpriteMapping
 [System.Serializable]
 public class IceSpriteMapping
 {
-    public IceOption iceOption;
     public Sprite sprite;
 }
