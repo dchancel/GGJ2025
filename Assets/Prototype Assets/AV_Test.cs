@@ -25,11 +25,11 @@ public class AV_Test : MonoBehaviour
 
     private void CreateOrder(SO_BobaOrder bo)
     {
-        // prefab inst
+        // create a game object and grab the slot for sprites to be added to
         GameObject go = Instantiate(orderPrefab);
         GameObject slot = go.GetComponent<Order>().SpritesSlot;
 
-        // create image parent
+        // create another go to hold image component for each sprite
         GameObject temp1 = new GameObject();
         temp1.AddComponent<Image>().sprite = bo.GetCupSprite();
         
@@ -42,11 +42,15 @@ public class AV_Test : MonoBehaviour
         GameObject temp4 = new GameObject();
         temp4.AddComponent<Image>().sprite = bo.GetIceSprite();
 
+        // add go's with images to slot
         temp1.transform.parent = slot.transform;
         temp2.transform.parent = slot.transform;
         temp3.transform.parent = slot.transform;
         temp4.transform.parent = slot.transform;
 
+        // add completed order to bar
         go.transform.parent = ordersBar.transform;
+        
+        // TODO keep track of current orders maybe?
     }
 }
