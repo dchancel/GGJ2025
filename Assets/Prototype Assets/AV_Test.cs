@@ -32,7 +32,7 @@ public class AV_Test : MonoBehaviour
         // create another go to hold image component for each sprite
         GameObject temp1 = new GameObject();
         temp1.AddComponent<Image>().sprite = bo.GetCupSprite();
-        
+
         GameObject temp2 = new GameObject();
         temp2.AddComponent<Image>().sprite = bo.GetMixerSprite();
 
@@ -43,10 +43,15 @@ public class AV_Test : MonoBehaviour
         temp4.AddComponent<Image>().sprite = bo.GetIceSprite();
 
         // add go's with images to slot
-        temp1.transform.parent = slot.transform;
-        temp2.transform.parent = slot.transform;
-        temp3.transform.parent = slot.transform;
-        temp4.transform.parent = slot.transform;
+        // if template images are left blank dont add the GO
+        if (bo.GetCupSprite() != null)
+            temp1.transform.parent = slot.transform;
+        if (bo.GetMixerSprite() != null)
+            temp2.transform.parent = slot.transform;
+        if (bo.GetSolidsSprite() != null)
+            temp3.transform.parent = slot.transform;
+        if (bo.GetIceSprite() != null)
+            temp4.transform.parent = slot.transform;
 
         // add completed order to bar
         go.transform.parent = ordersBar.transform;

@@ -12,7 +12,8 @@ public enum SolidsType
 {
     None,
     Boba,
-    Fruit
+    Fruit,
+    Both
 }
 
 [System.Serializable]
