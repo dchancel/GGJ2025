@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b7eb43a0278949db83c983c1f5c79ea, type: 3}
+  m_Name: SO_OrderTemplate
+  m_EditorClassIdentifier: 
+  mixerTextures:
+  - mixerType: 0
+    texture: {fileID: 0}
+  - mixerType: 1
+    texture: {fileID: -5110731548806032159, guid: 801ea2a99780b4c0292da04c6acea91f, type: 3}
+  - mixerType: 2
+    texture: {fileID: 2791105872119289076, guid: 356407a642a4443cc853ae9831cf5da1, type: 3}
+  solidsTextures: []
+  iceTextures: []
