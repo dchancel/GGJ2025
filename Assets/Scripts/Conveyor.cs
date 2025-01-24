@@ -6,6 +6,7 @@ public class Conveyor : MonoBehaviour
     public Conveyor nextConveyor;
     public BobaController held;
     public bool isServingWindow;
+    public bool isStopGap;
 
     private bool holding = false;
     private Coroutine sendRoutine;
@@ -49,7 +50,7 @@ public class Conveyor : MonoBehaviour
         {
             if (GameManager.instance.isPlaying)
             {
-                if (!isServingWindow)
+                if (!isServingWindow && !isStopGap)
                 {
                     if (nextConveyor.IsAvailable() && held != null && sendRoutine == null && held.transform.position == transform.position)
                     {
@@ -102,11 +103,101 @@ public class Conveyor : MonoBehaviour
 
     public void AddCup(GameObject bc)
     {
-        if (held == null)
+        if (held == null && GameManager.instance.rsc_cup.resourcesAvailable > 0)
         {
             GameObject go = Instantiate(bc);
             go.transform.position = transform.position;
             AddHeld(go.GetComponent<BobaController>());
+
+            GameManager.instance.rsc_cup.SpendResource();
+        }
+    }
+
+    public void AddIce()
+    {
+        if(held != null && GameManager.instance.rsc_ice.resourcesAvailable > 0)
+        {
+            //Check if the container already has ice AND that ice is available
+
+            //If not, add ice to it
+            held.ReceiveIce();
+            GameManager.instance.rsc_ice.SpendResource();
+        }
+    }
+
+    public void AddTea()
+    {
+        if (held != null && GameManager.instance.rsc_tea.resourcesAvailable > 0)
+        {
+            //Check if the container already has tea AND that tea is available
+
+            //If not, add tea to it
+            held.ReceiveTea();
+            GameManager.instance.rsc_tea.SpendResource();
+        }
+    }
+
+    public void AddMilk()
+    {
+        if (held != null && GameManager.instance.rsc_milk.resourcesAvailable > 0)
+        {
+            //Check if the container already has milk AND that milk is available
+
+            //If not, add milk to it
+            held.ReceiveMilk();
+            GameManager.instance.rsc_milk.SpendResource();
+        }
+    }
+
+    public void AddJuice()
+    {
+        if (held != null && GameManager.instance.rsc_juice.resourcesAvailable > 0)
+        {
+            //Check if the container already has juice AND that juice is available
+
+            //If not, add juice to it
+            held.ReceiveJuice();
+            GameManager.instance.rsc_juice.SpendResource();
+        }
+    }
+
+    public void AddTapioca()
+    {
+        if (held != null && GameManager.instance.rsc_tapioca.resourcesAvailable > 0)
+        {
+            //Check if the container already has tapioca AND that tapioca is available
+
+            //If not, add tapioca to it
+            held.ReceiveTapioca();
+            GameManager.instance.rsc_tapioca.SpendResource();
+        }
+    }
+
+    public void AddFruit()
+    {
+        if (held != null && GameManager.instance.rsc_fruit.resourcesAvailable > 0)
+        {
+            //Check if the container already has fruit AND that fruit is available
+
+            //If not, add fruit to it
+            held.ReceiveFruit();
+            GameManager.instance.rsc_fruit.SpendResource();
+        }
+    }
+
+    public void DoShake(Conveyor outplace)
+    {
+        if (held != null)
+        {
+            //Take the container, shake it, and deposit it onto another conveyor belt upon completion
+        }
+    }
+
+    public void DoTrash()
+    {
+        if(held != null)
+        {
+            //put the whole thing into the trash
         }
     }
 }

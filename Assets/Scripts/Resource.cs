@@ -9,6 +9,7 @@ public class Resource : Clickable
     public float refreshTime = 2f;
 
     [SerializeField] private Image refreshWheel;
+    [SerializeField] private Image resourceDisplay;
 
     private Color baseColor;
     private Coroutine refreshRoutine;
@@ -21,11 +22,23 @@ public class Resource : Clickable
         FillResources();
     }
 
+    public void SpendResource()
+    {
+        resourcesAvailable--;
+        UpdateResourceDisplay();
+    }
+
+    private void UpdateResourceDisplay()
+    {
+        resourceDisplay.fillAmount = (float)resourcesAvailable / (float)maxResources;
+    }
+
     private void FillResources()
     {
         resourcesAvailable = maxResources;
         refreshWheel.fillAmount = 0f;
         sr.color = baseColor;
+        UpdateResourceDisplay();
     }
 
     public void RefreshResource()
