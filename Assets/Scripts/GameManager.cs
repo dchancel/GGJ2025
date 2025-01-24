@@ -18,4 +18,12 @@ public class GameManager : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            isPlaying = !isPlaying;
+        }
+    }
 }

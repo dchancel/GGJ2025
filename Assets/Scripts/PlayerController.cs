@@ -25,6 +25,11 @@ public class PlayerController : MonoBehaviour
 
     private void DoClick()
     {
+        if (!GameManager.instance.isPlaying)
+        {
+            return;
+        }
+
         if (clickCooldownRoutine == null)
         {
             Vector3 worldPosition = Camera.main.ScreenToWorldPoint(clickPosition);
