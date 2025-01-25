@@ -1,0 +1,2782 @@
+fileFormatVersion: 2
+guid: 90a3f6dc37247ca47b971a4ef741fb21
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7113433817996239267
+    second: Conveyor_TurnTrack_0
+  - first:
+      213: -5661429696258355789
+    second: Conveyor_TurnTrack_1
+  - first:
+      213: 8391820374618245132
+    second: Conveyor_TurnTrack_2
+  - first:
+      213: -4547391265000546668
+    second: Conveyor_TurnTrack_3
+  - first:
+      213: 1553567507362569184
+    second: Conveyor_TurnTrack_4
+  - first:
+      213: -3796928380787019644
+    second: Conveyor_TurnTrack_5
+  - first:
+      213: -2116173757749561968
+    second: Conveyor_TurnTrack_6
+  - first:
+      213: -4168093638185272082
+    second: Conveyor_TurnTrack_7
+  - first:
+      213: -2701138748152895112
+    second: Conveyor_TurnTrack_8
+  - first:
+      213: 1355286212997573529
+    second: Conveyor_TurnTrack_9
+  - first:
+      213: -5865603281024706021
+    second: Conveyor_TurnTrack_10
+  - first:
+      213: -4731416816630362839
+    second: Conveyor_TurnTrack_11
+  - first:
+      213: 7019324366777205274
+    second: Conveyor_TurnTrack_12
+  - first:
+      213: -4808052512473843294
+    second: Conveyor_TurnTrack_13
+  - first:
+      213: -8204755059881165302
+    second: Conveyor_TurnTrack_14
+  - first:
+      213: 128878719070572216
+    second: Conveyor_TurnTrack_15
+  - first:
+      213: 7276903182435443828
+    second: Conveyor_TurnTrack_16
+  - first:
+      213: -3831831427492485715
+    second: Conveyor_TurnTrack_17
+  - first:
+      213: 999074349778046660
+    second: Conveyor_TurnTrack_18
+  - first:
+      213: 8602624098803159484
+    second: Conveyor_TurnTrack_19
+  - first:
+      213: -1653528655184007737
+    second: Conveyor_TurnTrack_20
+  - first:
+      213: 4719782476318472172
+    second: Conveyor_TurnTrack_21
+  - first:
+      213: 7114848386184782770
+    second: Conveyor_TurnTrack_22
+  - first:
+      213: -7062674839103372738
+    second: Conveyor_TurnTrack_23
+  - first:
+      213: 3283928518488585013
+    second: Conveyor_TurnTrack_24
+  - first:
+      213: 410219578874209253
+    second: Conveyor_TurnTrack_25
+  - first:
+      213: 5693207668873892777
+    second: Conveyor_TurnTrack_26
+  - first:
+      213: 4772056756997155592
+    second: Conveyor_TurnTrack_27
+  - first:
+      213: 4453446521287788041
+    second: Conveyor_TurnTrack_28
+  - first:
+      213: 5517851058706041945
+    second: Conveyor_TurnTrack_29
+  - first:
+      213: 660226391386211005
+    second: Conveyor_TurnTrack_30
+  - first:
+      213: -9201393965097350790
+    second: Conveyor_TurnTrack_31
+  - first:
+      213: 8224578331185578791
+    second: Conveyor_TurnTrack_32
+  - first:
+      213: -850177565067566042
+    second: Conveyor_TurnTrack_33
+  - first:
+      213: 5956547418674199520
+    second: Conveyor_TurnTrack_34
+  - first:
+      213: -2164612567126270016
+    second: Conveyor_TurnTrack_35
+  - first:
+      213: 7959273557911526383
+    second: Conveyor_TurnTrack_36
+  - first:
+      213: 6010081677582485963
+    second: Conveyor_TurnTrack_37
+  - first:
+      213: 8078434943649393599
+    second: Conveyor_TurnTrack_38
+  - first:
+      213: -2397374555845684340
+    second: Conveyor_TurnTrack_39
+  - first:
+      213: -2987617782654363329
+    second: Conveyor_TurnTrack_40
+  - first:
+      213: -5765953931610647821
+    second: Conveyor_TurnTrack_41
+  - first:
+      213: -4033669018022137278
+    second: Conveyor_TurnTrack_42
+  - first:
+      213: -4463195430150989123
+    second: Conveyor_TurnTrack_43
+  - first:
+      213: 6351753005325047929
+    second: Conveyor_TurnTrack_44
+  - first:
+      213: 1605570038898392954
+    second: Conveyor_TurnTrack_45
+  - first:
+      213: 2184210378069332946
+    second: Conveyor_TurnTrack_46
+  - first:
+      213: 6651405414021699127
+    second: Conveyor_TurnTrack_47
+  - first:
+      213: -7125194487049134292
+    second: Conveyor_TurnTrack_48
+  - first:
+      213: 9057887307466898980
+    second: Conveyor_TurnTrack_49
+  - first:
+      213: 4559624109018752601
+    second: Conveyor_TurnTrack_50
+  - first:
+      213: -1607387452459921408
+    second: Conveyor_TurnTrack_51
+  - first:
+      213: 3609383188961756537
+    second: Conveyor_TurnTrack_52
+  - first:
+      213: -8399184896532721899
+    second: Conveyor_TurnTrack_53
+  - first:
+      213: -9054240103071625328
+    second: Conveyor_TurnTrack_54
+  - first:
+      213: -7230434768572475331
+    second: Conveyor_TurnTrack_55
+  - first:
+      213: -7692952965387949566
+    second: Conveyor_TurnTrack_56
+  - first:
+      213: -3765739490681297055
+    second: Conveyor_TurnTrack_57
+  - first:
+      213: 2335619905753660960
+    second: Conveyor_TurnTrack_58
+  - first:
+      213: -8752510315689395666
+    second: Conveyor_TurnTrack_59
+  - first:
+      213: -3772325749383197119
+    second: Conveyor_TurnTrack_60
+  - first:
+      213: -2380590163254301458
+    second: Conveyor_TurnTrack_61
+  - first:
+      213: 6839128258218659599
+    second: Conveyor_TurnTrack_62
+  - first:
+      213: 8087095747881104578
+    second: Conveyor_TurnTrack_63
+  - first:
+      213: 2655350425451960141
+    second: Conveyor_TurnTrack_64
+  - first:
+      213: 8325490160027519781
+    second: Conveyor_TurnTrack_65
+  - first:
+      213: 3305743157458744213
+    second: Conveyor_TurnTrack_66
+  - first:
+      213: 1964901778284992428
+    second: Conveyor_TurnTrack_67
+  - first:
+      213: 2920559827596448466
+    second: Conveyor_TurnTrack_68
+  - first:
+      213: -8700377536747536477
+    second: Conveyor_TurnTrack_69
+  - first:
+      213: 5223312506595168761
+    second: Conveyor_TurnTrack_70
+  - first:
+      213: 7513097837376395679
+    second: Conveyor_TurnTrack_71
+  - first:
+      213: 1604491569710929026
+    second: Conveyor_TurnTrack_72
+  - first:
+      213: 4611892983448102655
+    second: Conveyor_TurnTrack_73
+  - first:
+      213: -1628358258137381666
+    second: Conveyor_TurnTrack_74
+  - first:
+      213: 6251224681594238056
+    second: Conveyor_TurnTrack_75
+  - first:
+      213: 764164316593068561
+    second: Conveyor_TurnTrack_76
+  - first:
+      213: -3117089569281205825
+    second: Conveyor_TurnTrack_77
+  - first:
+      213: -3651931098751935532
+    second: Conveyor_TurnTrack_78
+  - first:
+      213: -2927965880726322310
+    second: Conveyor_TurnTrack_79
+  - first:
+      213: 8746113195555115886
+    second: Conveyor_TurnTrack_80
+  - first:
+      213: 1962776947258950862
+    second: Conveyor_TurnTrack_81
+  - first:
+      213: -231466698529422969
+    second: Conveyor_TurnTrack_82
+  - first:
+      213: -5234597085941912141
+    second: Conveyor_TurnTrack_83
+  - first:
+      213: 7858931965960612475
+    second: Conveyor_TurnTrack_84
+  - first:
+      213: -3344638069160100581
+    second: Conveyor_TurnTrack_85
+  - first:
+      213: -8708514548709893473
+    second: Conveyor_TurnTrack_86
+  - first:
+      213: 6676626346500883713
+    second: Conveyor_TurnTrack_87
+  - first:
+      213: 6007787706706032358
+    second: Conveyor_TurnTrack_88
+  - first:
+      213: -5405973118427160027
+    second: Conveyor_TurnTrack_89
+  - first:
+      213: 7656362094646692841
+    second: Conveyor_TurnTrack_90
+  - first:
+      213: 714072301058014158
+    second: Conveyor_TurnTrack_91
+  - first:
+      213: -7421073752654097107
+    second: Conveyor_TurnTrack_92
+  - first:
+      213: 4399988657140951753
+    second: Conveyor_TurnTrack_93
+  - first:
+      213: -65094180425029339
+    second: Conveyor_TurnTrack_94
+  - first:
+      213: 9134887963466200750
+    second: Conveyor_TurnTrack_95
+  - first:
+      213: -1597180004441312468
+    second: Conveyor_TurnTrack_96
+  - first:
+      213: 7225209865909393990
+    second: Conveyor_TurnTrack_97
+  - first:
+      213: -6941780561753522370
+    second: Conveyor_TurnTrack_98
+  - first:
+      213: 554502557715883891
+    second: Conveyor_TurnTrack_99
+  - first:
+      213: 177157767950080467
+    second: Conveyor_TurnTrack_100
+  - first:
+      213: 3102686111549108863
+    second: Conveyor_TurnTrack_101
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_0
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1332
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a1aaee6e5ef7b260800000000000000
+      internalID: 7113433817996239267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_1
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 1380
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd4ca1dfaf8e61b0800000000000000
+      internalID: -5661429696258355789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_2
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1321
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0881004b2cb57470800000000000000
+      internalID: 8391820374618245132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_3
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 1306
+        width: 58
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e9de2dcbb64e0c0800000000000000
+      internalID: -4547391265000546668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_4
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 1333
+        width: 50
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb5fe2ba616f8510800000000000000
+      internalID: 1553567507362569184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_5
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1265
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 480379131c99e4bc0800000000000000
+      internalID: -3796928380787019644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_6
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1267
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0957556ed27d1a2e0800000000000000
+      internalID: -2116173757749561968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_7
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 1277
+        width: 44
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eecb6696be4f726c0800000000000000
+      internalID: -4168093638185272082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_8
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1219
+        width: 22
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 879ad4bae90a38ad0800000000000000
+      internalID: -2701138748152895112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_9
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1203
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b64be41a1fec210800000000000000
+      internalID: 1355286212997573529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_10
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1222
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a1829a4e0399ea0800000000000000
+      internalID: -5865603281024706021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_11
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1224
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d00703971a65eb0800000000000000
+      internalID: -4731416816630362839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_12
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1228
+        width: 47
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12cff45256a96160800000000000000
+      internalID: 7019324366777205274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_13
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1239
+        width: 59
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a9729cc6bd564db0800000000000000
+      internalID: -4808052512473843294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_14
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 1248
+        width: 54
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0eb1b26ebad22e80800000000000000
+      internalID: -8204755059881165302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_15
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1144
+        width: 21
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be0f4d138ed9c100800000000000000
+      internalID: 128878719070572216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_16
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 1165
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47469f5c3e0ccf460800000000000000
+      internalID: 7276903182435443828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_17
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 1185
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5e12d5e9992dac0800000000000000
+      internalID: -3831831427492485715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_18
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1167
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce89bae3dc6ddd00800000000000000
+      internalID: 999074349778046660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_19
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 1176
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb190690a09a26770800000000000000
+      internalID: 8602624098803159484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_20
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1141
+        width: 43
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cde3d9e27c7d09e0800000000000000
+      internalID: -1653528655184007737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_21
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 1146
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce7731ed729008140800000000000000
+      internalID: 4719782476318472172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_22
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1108
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b32e4149e40db260800000000000000
+      internalID: 7114848386184782770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_23
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 1113
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e32872b47a65cfd90800000000000000
+      internalID: -7062674839103372738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_24
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1078
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533794ca69bd29d20800000000000000
+      internalID: 3283928518488585013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_25
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1118
+        width: 46
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e325b6988461b500800000000000000
+      internalID: 410219578874209253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_26
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 1072
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a312cff536520f40800000000000000
+      internalID: 5693207668873892777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_27
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 1115
+        width: 49
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b61d84650c93240800000000000000
+      internalID: 4772056756997155592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_28
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 1110
+        width: 60
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 906ce870402ddcd30800000000000000
+      internalID: 4453446521287788041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_29
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 1097
+        width: 53
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ccfa59d48539c40800000000000000
+      internalID: 5517851058706041945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_30
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1053
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2c9e9a768992900800000000000000
+      internalID: 660226391386211005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_31
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1052
+        width: 50
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7903f790f41e4080800000000000000
+      internalID: -9201393965097350790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_32
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1059
+        width: 45
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72301b1aa62932270800000000000000
+      internalID: 8224578331185578791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_33
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1065
+        width: 48
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 624242e42009334f0800000000000000
+      internalID: -850177565067566042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_34
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1049
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb78d17158e9a250800000000000000
+      internalID: 5956547418674199520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_35
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 980
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf971cb650c5f1e0800000000000000
+      internalID: -2164612567126270016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_36
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 1009
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: febd9718125057e60800000000000000
+      internalID: 7959273557911526383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_37
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 918
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc943676179186350800000000000000
+      internalID: 6010081677582485963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_38
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 942
+        width: 45
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb2355a7cd5c1070800000000000000
+      internalID: 8078434943649393599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_39
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 943
+        width: 18
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8312451b80dabed0800000000000000
+      internalID: -2397374555845684340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_40
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 937
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f391f3ca479d986d0800000000000000
+      internalID: -2987617782654363329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_41
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 953
+        width: 44
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f29413d2773bffa0800000000000000
+      internalID: -5765953931610647821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_42
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 897
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 242ba4f36678508c0800000000000000
+      internalID: -4033669018022137278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_43
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 922
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba14be376b8f02c0800000000000000
+      internalID: -4463195430150989123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_44
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 882
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9785b6f84b5f52850800000000000000
+      internalID: 6351753005325047929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_45
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 912
+        width: 53
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7f7c869171284610800000000000000
+      internalID: 1605570038898392954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_46
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 825
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d35b8334cfdf4e10800000000000000
+      internalID: 2184210378069332946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_47
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 869
+        width: 46
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7369fdfbbf98e4c50800000000000000
+      internalID: 6651405414021699127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_48
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 789
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f5ddb6d593e1d90800000000000000
+      internalID: -7125194487049134292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_49
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 801
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e7511f38414bd70800000000000000
+      internalID: 9057887307466898980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_50
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 773
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956ae5f18f9074f30800000000000000
+      internalID: 4559624109018752601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_51
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 769
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 000d4b7d0a961b9e0800000000000000
+      internalID: -1607387452459921408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_52
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 739
+        width: 49
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 975055413ea171230800000000000000
+      internalID: 3609383188961756537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_53
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 752
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f475f56d9107b80800000000000000
+      internalID: -8399184896532721899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_54
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 728
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09fc1510990e85280800000000000000
+      internalID: -9054240103071625328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_55
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 712
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d389a9fe2e558ab90800000000000000
+      internalID: -7230434768572475331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_56
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 700
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a634879042d3590800000000000000
+      internalID: -7692952965387949566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_57
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 695
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 167e74d82e76dbbc0800000000000000
+      internalID: -3765739490681297055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_58
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 655
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e37ccfde9c96020800000000000000
+      internalID: 2335619905753660960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_59
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 682
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a346c9d36d88680800000000000000
+      internalID: -8752510315689395666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_60
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 657
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e84f2b7b106abc0800000000000000
+      internalID: -3772325749383197119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_61
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 590
+        width: 51
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eec20730cd176fed0800000000000000
+      internalID: -2380590163254301458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_62
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 598
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f85746ae679ee50800000000000000
+      internalID: 6839128258218659599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_63
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 574
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c476054cb22b3070800000000000000
+      internalID: 8087095747881104578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_64
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 589
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d471f3fa423b9d420800000000000000
+      internalID: 2655350425451960141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_65
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 554
+        width: 55
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b4371b0351a8370800000000000000
+      internalID: 8325490160027519781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_66
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 534
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 593b10b13eb50ed20800000000000000
+      internalID: 3305743157458744213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_67
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 542
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7d531c1cbb44b10800000000000000
+      internalID: 1964901778284992428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_68
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 564
+        width: 46
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d2992d70b9e78820800000000000000
+      internalID: 2920559827596448466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_69
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 543
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3afff561abc024780800000000000000
+      internalID: -8700377536747536477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_70
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 529
+        width: 47
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f1d57aec0fec7840800000000000000
+      internalID: 5223312506595168761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_71
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 481
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99539f4da2e34860800000000000000
+      internalID: 7513097837376395679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_72
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 455
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2849ab9e49c444610800000000000000
+      internalID: 1604491569710929026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_73
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 466
+        width: 23
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff66a8ccb3cb00040800000000000000
+      internalID: 4611892983448102655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_74
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 412
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4c5a8aac8e669e0800000000000000
+      internalID: -1628358258137381666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_75
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 461
+        width: 49
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 864349d3abfc0c650800000000000000
+      internalID: 6251224681594238056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_76
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 454
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a1f80b56bda9a00800000000000000
+      internalID: 764164316593068561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_77
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 450
+        width: 50
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb91be14d8fddb4d0800000000000000
+      internalID: -3117089569281205825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_78
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 396
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db50b2b30cb15dc0800000000000000
+      internalID: -3651931098751935532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_79
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 405
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7308d46b86cd57d0800000000000000
+      internalID: -2927965880726322310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_80
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 419
+        width: 45
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e635b6acc9f606970800000000000000
+      internalID: 8746113195555115886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_81
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 397
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec402bafb3f2d3b10800000000000000
+      internalID: 1962776947258950862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_82
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 398
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78142d8934aa9ccf0800000000000000
+      internalID: -231466698529422969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_83
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 386
+        width: 54
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd23263fa9fa57b0800000000000000
+      internalID: -5234597085941912141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_84
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 386
+        width: 61
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a6b011cf8801d60800000000000000
+      internalID: 7858931965960612475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_85
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 389
+        width: 48
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1db67195657591d0800000000000000
+      internalID: -3344638069160100581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_86
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 361
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a53da5824252780800000000000000
+      internalID: -8708514548709893473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_87
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 387
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1050331b94428ac50800000000000000
+      internalID: 6676626346500883713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_88
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 330
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e6fb20b613ff5350800000000000000
+      internalID: 6007787706706032358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_89
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 352
+        width: 46
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 522a6d247102af4b0800000000000000
+      internalID: -5405973118427160027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_90
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 318
+        width: 22
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eb8e2b82ccd04a60800000000000000
+      internalID: 7656362094646692841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_91
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 296
+        width: 46
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb328879f4e8e900800000000000000
+      internalID: 714072301058014158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_92
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 313
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d25d3119dbc030990800000000000000
+      internalID: -7421073752654097107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_93
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 297
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca62ac1f56ef0d30800000000000000
+      internalID: 4399988657140951753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_94
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 258
+        width: 53
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52922d2103db81ff0800000000000000
+      internalID: -65094180425029339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_95
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 276
+        width: 57
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6f46d3434a5ce70800000000000000
+      internalID: 9134887963466200750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_96
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 262
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c233be88f3da5d9e0800000000000000
+      internalID: -1597180004441312468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_97
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 230
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64a5d2d971a154460800000000000000
+      internalID: 7225209865909393990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_98
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 250
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f38f3bb57d9af90800000000000000
+      internalID: -6941780561753522370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_99
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 208
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37763bb632df1b700800000000000000
+      internalID: 554502557715883891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_100
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 174
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d99dd32d04657200800000000000000
+      internalID: 177157767950080467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_TurnTrack_101
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 163
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f723c686494fe0b20800000000000000
+      internalID: 3102686111549108863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Conveyor_TurnTrack_0: 7113433817996239267
+      Conveyor_TurnTrack_1: -5661429696258355789
+      Conveyor_TurnTrack_10: -5865603281024706021
+      Conveyor_TurnTrack_100: 177157767950080467
+      Conveyor_TurnTrack_101: 3102686111549108863
+      Conveyor_TurnTrack_11: -4731416816630362839
+      Conveyor_TurnTrack_12: 7019324366777205274
+      Conveyor_TurnTrack_13: -4808052512473843294
+      Conveyor_TurnTrack_14: -8204755059881165302
+      Conveyor_TurnTrack_15: 128878719070572216
+      Conveyor_TurnTrack_16: 7276903182435443828
+      Conveyor_TurnTrack_17: -3831831427492485715
+      Conveyor_TurnTrack_18: 999074349778046660
+      Conveyor_TurnTrack_19: 8602624098803159484
+      Conveyor_TurnTrack_2: 8391820374618245132
+      Conveyor_TurnTrack_20: -1653528655184007737
+      Conveyor_TurnTrack_21: 4719782476318472172
+      Conveyor_TurnTrack_22: 7114848386184782770
+      Conveyor_TurnTrack_23: -7062674839103372738
+      Conveyor_TurnTrack_24: 3283928518488585013
+      Conveyor_TurnTrack_25: 410219578874209253
+      Conveyor_TurnTrack_26: 5693207668873892777
+      Conveyor_TurnTrack_27: 4772056756997155592
+      Conveyor_TurnTrack_28: 4453446521287788041
+      Conveyor_TurnTrack_29: 5517851058706041945
+      Conveyor_TurnTrack_3: -4547391265000546668
+      Conveyor_TurnTrack_30: 660226391386211005
+      Conveyor_TurnTrack_31: -9201393965097350790
+      Conveyor_TurnTrack_32: 8224578331185578791
+      Conveyor_TurnTrack_33: -850177565067566042
+      Conveyor_TurnTrack_34: 5956547418674199520
+      Conveyor_TurnTrack_35: -2164612567126270016
+      Conveyor_TurnTrack_36: 7959273557911526383
+      Conveyor_TurnTrack_37: 6010081677582485963
+      Conveyor_TurnTrack_38: 8078434943649393599
+      Conveyor_TurnTrack_39: -2397374555845684340
+      Conveyor_TurnTrack_4: 1553567507362569184
+      Conveyor_TurnTrack_40: -2987617782654363329
+      Conveyor_TurnTrack_41: -5765953931610647821
+      Conveyor_TurnTrack_42: -4033669018022137278
+      Conveyor_TurnTrack_43: -4463195430150989123
+      Conveyor_TurnTrack_44: 6351753005325047929
+      Conveyor_TurnTrack_45: 1605570038898392954
+      Conveyor_TurnTrack_46: 2184210378069332946
+      Conveyor_TurnTrack_47: 6651405414021699127
+      Conveyor_TurnTrack_48: -7125194487049134292
+      Conveyor_TurnTrack_49: 9057887307466898980
+      Conveyor_TurnTrack_5: -3796928380787019644
+      Conveyor_TurnTrack_50: 4559624109018752601
+      Conveyor_TurnTrack_51: -1607387452459921408
+      Conveyor_TurnTrack_52: 3609383188961756537
+      Conveyor_TurnTrack_53: -8399184896532721899
+      Conveyor_TurnTrack_54: -9054240103071625328
+      Conveyor_TurnTrack_55: -7230434768572475331
+      Conveyor_TurnTrack_56: -7692952965387949566
+      Conveyor_TurnTrack_57: -3765739490681297055
+      Conveyor_TurnTrack_58: 2335619905753660960
+      Conveyor_TurnTrack_59: -8752510315689395666
+      Conveyor_TurnTrack_6: -2116173757749561968
+      Conveyor_TurnTrack_60: -3772325749383197119
+      Conveyor_TurnTrack_61: -2380590163254301458
+      Conveyor_TurnTrack_62: 6839128258218659599
+      Conveyor_TurnTrack_63: 8087095747881104578
+      Conveyor_TurnTrack_64: 2655350425451960141
+      Conveyor_TurnTrack_65: 8325490160027519781
+      Conveyor_TurnTrack_66: 3305743157458744213
+      Conveyor_TurnTrack_67: 1964901778284992428
+      Conveyor_TurnTrack_68: 2920559827596448466
+      Conveyor_TurnTrack_69: -8700377536747536477
+      Conveyor_TurnTrack_7: -4168093638185272082
+      Conveyor_TurnTrack_70: 5223312506595168761
+      Conveyor_TurnTrack_71: 7513097837376395679
+      Conveyor_TurnTrack_72: 1604491569710929026
+      Conveyor_TurnTrack_73: 4611892983448102655
+      Conveyor_TurnTrack_74: -1628358258137381666
+      Conveyor_TurnTrack_75: 6251224681594238056
+      Conveyor_TurnTrack_76: 764164316593068561
+      Conveyor_TurnTrack_77: -3117089569281205825
+      Conveyor_TurnTrack_78: -3651931098751935532
+      Conveyor_TurnTrack_79: -2927965880726322310
+      Conveyor_TurnTrack_8: -2701138748152895112
+      Conveyor_TurnTrack_80: 8746113195555115886
+      Conveyor_TurnTrack_81: 1962776947258950862
+      Conveyor_TurnTrack_82: -231466698529422969
+      Conveyor_TurnTrack_83: -5234597085941912141
+      Conveyor_TurnTrack_84: 7858931965960612475
+      Conveyor_TurnTrack_85: -3344638069160100581
+      Conveyor_TurnTrack_86: -8708514548709893473
+      Conveyor_TurnTrack_87: 6676626346500883713
+      Conveyor_TurnTrack_88: 6007787706706032358
+      Conveyor_TurnTrack_89: -5405973118427160027
+      Conveyor_TurnTrack_9: 1355286212997573529
+      Conveyor_TurnTrack_90: 7656362094646692841
+      Conveyor_TurnTrack_91: 714072301058014158
+      Conveyor_TurnTrack_92: -7421073752654097107
+      Conveyor_TurnTrack_93: 4399988657140951753
+      Conveyor_TurnTrack_94: -65094180425029339
+      Conveyor_TurnTrack_95: 9134887963466200750
+      Conveyor_TurnTrack_96: -1597180004441312468
+      Conveyor_TurnTrack_97: 7225209865909393990
+      Conveyor_TurnTrack_98: -6941780561753522370
+      Conveyor_TurnTrack_99: 554502557715883891
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

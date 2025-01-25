@@ -1,0 +1,1066 @@
+fileFormatVersion: 2
+guid: 955db4f572926f44990b53087fa4b3db
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6892277982681830861
+    second: Conveyor_StandardTrack_0
+  - first:
+      213: 4604014945514434507
+    second: Conveyor_StandardTrack_1
+  - first:
+      213: -6361403620973073425
+    second: Conveyor_StandardTrack_2
+  - first:
+      213: -4418334679426022424
+    second: Conveyor_StandardTrack_3
+  - first:
+      213: 3697134249602811169
+    second: Conveyor_StandardTrack_4
+  - first:
+      213: 8201079524998757169
+    second: Conveyor_StandardTrack_5
+  - first:
+      213: 2380640485888280249
+    second: Conveyor_StandardTrack_6
+  - first:
+      213: 8227500622794960651
+    second: Conveyor_StandardTrack_7
+  - first:
+      213: 5839890629377294533
+    second: Conveyor_StandardTrack_8
+  - first:
+      213: 4527152173203894508
+    second: Conveyor_StandardTrack_9
+  - first:
+      213: -187133817860028145
+    second: Conveyor_StandardTrack_10
+  - first:
+      213: -4180184432057048084
+    second: Conveyor_StandardTrack_11
+  - first:
+      213: 8310307133274708627
+    second: Conveyor_StandardTrack_12
+  - first:
+      213: -7878916892866121082
+    second: Conveyor_StandardTrack_13
+  - first:
+      213: 4594885684477171693
+    second: Conveyor_StandardTrack_14
+  - first:
+      213: 7205316708305084545
+    second: Conveyor_StandardTrack_15
+  - first:
+      213: 8521634020417001603
+    second: Conveyor_StandardTrack_16
+  - first:
+      213: -2544207048856589762
+    second: Conveyor_StandardTrack_17
+  - first:
+      213: 8251177740897848547
+    second: Conveyor_StandardTrack_18
+  - first:
+      213: 715124752689434827
+    second: Conveyor_StandardTrack_19
+  - first:
+      213: -4283818285420894671
+    second: Conveyor_StandardTrack_20
+  - first:
+      213: -7519792613954347277
+    second: Conveyor_StandardTrack_21
+  - first:
+      213: -1395406606613634366
+    second: Conveyor_StandardTrack_22
+  - first:
+      213: 2056043887384514475
+    second: Conveyor_StandardTrack_23
+  - first:
+      213: -7114673471219421214
+    second: Conveyor_StandardTrack_24
+  - first:
+      213: 523883795388536932
+    second: Conveyor_StandardTrack_25
+  - first:
+      213: -114079253387072615
+    second: Conveyor_StandardTrack_26
+  - first:
+      213: 1977085120930088181
+    second: Conveyor_StandardTrack_27
+  - first:
+      213: 7653717894087207904
+    second: Conveyor_StandardTrack_28
+  - first:
+      213: -5355849136044958300
+    second: Conveyor_StandardTrack_29
+  - first:
+      213: -7424605500852946818
+    second: Conveyor_StandardTrack_30
+  - first:
+      213: 630930024267002493
+    second: Conveyor_StandardTrack_31
+  - first:
+      213: 9050205726081636789
+    second: Conveyor_StandardTrack_32
+  - first:
+      213: 2905298808098845297
+    second: Conveyor_StandardTrack_33
+  - first:
+      213: -4246878828038768214
+    second: Conveyor_StandardTrack_34
+  - first:
+      213: -8132108782063958502
+    second: Conveyor_StandardTrack_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Conveyor_StandardTrack_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 275
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ae00d01b5b950a0800000000000000
+      internalID: -6892277982681830861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_StandardTrack_1
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 274
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf2af7233fb4ef30800000000000000
+      internalID: 4604014945514434507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_StandardTrack_2
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 274
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb24036c11c7b7a0800000000000000
+      internalID: -6361403620973073425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_StandardTrack_3
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 270
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e3c506b40ceea2c0800000000000000
+      internalID: -4418334679426022424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_StandardTrack_4
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 269
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1258182030cde4330800000000000000
+      internalID: 3697134249602811169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_StandardTrack_5
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 269
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13bb746706610d170800000000000000
+      internalID: 8201079524998757169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_StandardTrack_6
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 230
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b6c843a8ebb90120800000000000000
+      internalID: 2380640485888280249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_StandardTrack_7
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 229
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0faffaa934fd2270800000000000000
+      internalID: 8227500622794960651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_StandardTrack_8
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 229
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c08a2b16957b0150800000000000000
+      internalID: 5839890629377294533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_StandardTrack_9
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 225
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce0b4f76aeca3de30800000000000000
+      internalID: 4527152173203894508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_StandardTrack_10
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 224
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f098dfcb8ca276df0800000000000000
+      internalID: -187133817860028145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_StandardTrack_11
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 224
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce32f9718600df5c0800000000000000
+      internalID: -4180184432057048084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_StandardTrack_12
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 180
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39adb3dce44245370800000000000000
+      internalID: 8310307133274708627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_StandardTrack_13
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 179
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 682f3e984d678a290800000000000000
+      internalID: -7878916892866121082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_StandardTrack_14
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 179
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de71ace6f2054cf30800000000000000
+      internalID: 4594885684477171693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_StandardTrack_15
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 175
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18026bcee5d6ef360800000000000000
+      internalID: 7205316708305084545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_StandardTrack_16
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 174
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 388d6d4fdfce24670800000000000000
+      internalID: 8521634020417001603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_StandardTrack_17
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 174
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3aabd93b2921bcd0800000000000000
+      internalID: -2544207048856589762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_StandardTrack_18
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 130
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec83d05072128270800000000000000
+      internalID: 8251177740897848547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_StandardTrack_19
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 129
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc094267c22ace900800000000000000
+      internalID: 715124752689434827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_StandardTrack_20
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 129
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1362a2f47f1dc84c0800000000000000
+      internalID: -4283818285420894671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_StandardTrack_21
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 125
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe15ac857454a790800000000000000
+      internalID: -7519792613954347277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_StandardTrack_22
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 124
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2af8f951582ace0800000000000000
+      internalID: -1395406606613634366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_StandardTrack_23
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 124
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bafca2ea509888c10800000000000000
+      internalID: 2056043887384514475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_StandardTrack_24
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 78
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef221f4c2a934d90800000000000000
+      internalID: -7114673471219421214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_StandardTrack_25
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 77
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46897b74985354700800000000000000
+      internalID: 523883795388536932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_StandardTrack_26
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 77
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b2f910685ba6ef0800000000000000
+      internalID: -114079253387072615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_StandardTrack_27
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 73
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f48fb34174007b10800000000000000
+      internalID: 1977085120930088181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_StandardTrack_28
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 72
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb6e10afd7773a60800000000000000
+      internalID: 7653717894087207904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_StandardTrack_29
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 72
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ad157756933ca5b0800000000000000
+      internalID: -5355849136044958300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_StandardTrack_30
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 34
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e78bf3c52a086f890800000000000000
+      internalID: -7424605500852946818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_StandardTrack_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 33
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d723096a38381c800800000000000000
+      internalID: 630930024267002493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_StandardTrack_32
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 33
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b95d47682ac89d70800000000000000
+      internalID: 9050205726081636789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_StandardTrack_33
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 29
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 172f81f7fd1b15820800000000000000
+      internalID: 2905298808098845297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_StandardTrack_34
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 28
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa93f92f43e0015c0800000000000000
+      internalID: -4246878828038768214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conveyor_StandardTrack_35
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 28
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a164e320622f42f80800000000000000
+      internalID: -8132108782063958502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Conveyor_StandardTrack_0: -6892277982681830861
+      Conveyor_StandardTrack_1: 4604014945514434507
+      Conveyor_StandardTrack_10: -187133817860028145
+      Conveyor_StandardTrack_11: -4180184432057048084
+      Conveyor_StandardTrack_12: 8310307133274708627
+      Conveyor_StandardTrack_13: -7878916892866121082
+      Conveyor_StandardTrack_14: 4594885684477171693
+      Conveyor_StandardTrack_15: 7205316708305084545
+      Conveyor_StandardTrack_16: 8521634020417001603
+      Conveyor_StandardTrack_17: -2544207048856589762
+      Conveyor_StandardTrack_18: 8251177740897848547
+      Conveyor_StandardTrack_19: 715124752689434827
+      Conveyor_StandardTrack_2: -6361403620973073425
+      Conveyor_StandardTrack_20: -4283818285420894671
+      Conveyor_StandardTrack_21: -7519792613954347277
+      Conveyor_StandardTrack_22: -1395406606613634366
+      Conveyor_StandardTrack_23: 2056043887384514475
+      Conveyor_StandardTrack_24: -7114673471219421214
+      Conveyor_StandardTrack_25: 523883795388536932
+      Conveyor_StandardTrack_26: -114079253387072615
+      Conveyor_StandardTrack_27: 1977085120930088181
+      Conveyor_StandardTrack_28: 7653717894087207904
+      Conveyor_StandardTrack_29: -5355849136044958300
+      Conveyor_StandardTrack_3: -4418334679426022424
+      Conveyor_StandardTrack_30: -7424605500852946818
+      Conveyor_StandardTrack_31: 630930024267002493
+      Conveyor_StandardTrack_32: 9050205726081636789
+      Conveyor_StandardTrack_33: 2905298808098845297
+      Conveyor_StandardTrack_34: -4246878828038768214
+      Conveyor_StandardTrack_35: -8132108782063958502
+      Conveyor_StandardTrack_4: 3697134249602811169
+      Conveyor_StandardTrack_5: 8201079524998757169
+      Conveyor_StandardTrack_6: 2380640485888280249
+      Conveyor_StandardTrack_7: 8227500622794960651
+      Conveyor_StandardTrack_8: 5839890629377294533
+      Conveyor_StandardTrack_9: 4527152173203894508
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

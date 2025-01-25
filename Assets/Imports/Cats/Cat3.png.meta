@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 453a5e583fdb9c64c94559bf188b9657
+guid: b3ba022f9badd3941a83982c8ca9f918
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1955448553306655712
-    second: Background_0
+      213: 4643141583821273657
+    second: Cat3_0
+  - first:
+      213: 1484911933474704014
+    second: Cat3_1
+  - first:
+      213: 5403136446720141413
+    second: Cat3_2
+  - first:
+      213: -4408743193651673927
+    second: Cat3_3
+  - first:
+      213: -2420680252774766303
+    second: Cat3_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 265
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,13 +125,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Background_0
+      name: Cat3_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 4800
-        height: 2700
+        x: 64
+        y: 3
+        width: 390
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +140,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 024fa93b6e9dcd4e0800000000000000
-      internalID: -1955448553306655712
+      spriteID: 93af2898ba0cf6040800000000000000
+      internalID: 4643141583821273657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat3_1
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 683
+        width: 21
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a8f7d39877b9410800000000000000
+      internalID: 1484911933474704014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat3_2
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 669
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56868b3a8fbcbfa40800000000000000
+      internalID: 5403136446720141413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat3_3
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 672
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b488748c6ff0d2c0800000000000000
+      internalID: -4408743193651673927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat3_4
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 671
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129ae8aa224086ed0800000000000000
+      internalID: -2420680252774766303
       vertices: []
       indices: 
       edges: []
@@ -148,7 +248,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Background_0: -1955448553306655712
+      Cat3_0: 4643141583821273657
+      Cat3_1: 1484911933474704014
+      Cat3_2: 5403136446720141413
+      Cat3_3: -4408743193651673927
+      Cat3_4: -2420680252774766303
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
