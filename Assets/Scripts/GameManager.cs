@@ -47,6 +47,10 @@ public class GameManager : MonoBehaviour
 
     private void UpdateMoney()
     {
+        if(moneyDisplay == null)
+        {
+            return;
+        }
         moneyDisplay.text = "$" + money;
     }
 
