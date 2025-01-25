@@ -27,7 +27,7 @@ public class AV_Test : MonoBehaviour
     {
         // create a game object and grab the slot for sprites to be added to
         GameObject go = Instantiate(orderPrefab);
-        GameObject slot = go.GetComponent<Order>().SpritesSlot;
+        GameObject slot = go.GetComponent<Order>().GetSpriteSlot();
 
         // create another go to hold image component for each sprite
         GameObject temp1 = new GameObject();

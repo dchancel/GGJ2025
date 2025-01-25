@@ -112,7 +112,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27f0a25ef46fd4344af219d6ed76ebf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpritesSlot: {fileID: 5596700286710417167}
+  spritesSlot: {fileID: 5596700286710417167}
+  slider: {fileID: 3293300994952725764}
+  fillImage: {fileID: 4263287526109000430}
+  timeAllowed: 5
+  fullColor: {r: 0, g: 1, b: 0, a: 1}
+  middleColor: {r: 1, g: 1, b: 0, a: 1}
+  emptyColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1 &2168553101200293776
 GameObject:
   m_ObjectHideFlags: 0
@@ -527,7 +533,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.35686275, g: 0.4784314, b: 0.5529412, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
