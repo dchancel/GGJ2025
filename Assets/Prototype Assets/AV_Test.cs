@@ -7,6 +7,7 @@ public class AV_Test : MonoBehaviour
     [SerializeField] private GameObject ordersBar;
     [SerializeField] private int maxOrders;
     [SerializeField] private GameObject orderPrefab;
+    [SerializeField] private GameObject orderEmptySprite;
 
     void Awake()
     {
@@ -30,17 +31,17 @@ public class AV_Test : MonoBehaviour
         GameObject slot = go.GetComponent<Order>().GetSpriteSlot();
 
         // create another go to hold image component for each sprite
-        GameObject temp1 = new GameObject();
-        temp1.AddComponent<Image>().sprite = bo.GetCupSprite();
+        GameObject temp1 = Instantiate(orderEmptySprite);
+        temp1.GetComponent<Image>().sprite = bo.GetCupSprite();
 
-        GameObject temp2 = new GameObject();
-        temp2.AddComponent<Image>().sprite = bo.GetMixerSprite();
+        GameObject temp2 = Instantiate(orderEmptySprite);
+        temp2.GetComponent<Image>().sprite = bo.GetMixerSprite();
 
-        GameObject temp3 = new GameObject();
-        temp3.AddComponent<Image>().sprite = bo.GetSolidsSprite();
+        GameObject temp3 = Instantiate(orderEmptySprite);
+        temp3.GetComponent<Image>().sprite = bo.GetSolidsSprite();
 
-        GameObject temp4 = new GameObject();
-        temp4.AddComponent<Image>().sprite = bo.GetIceSprite();
+        GameObject temp4 = Instantiate(orderEmptySprite);
+        temp4.GetComponent<Image>().sprite = bo.GetIceSprite();
 
         // add go's with images to slot
         // if template images are left blank dont add the GO
