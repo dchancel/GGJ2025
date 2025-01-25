@@ -12,6 +12,7 @@ public class Conveyor : MonoBehaviour
     private Coroutine sendRoutine;
 
     private Coroutine tickRoutine;
+    private Coroutine shakeRoutine;
 
     private void Start()
     {
@@ -26,11 +27,10 @@ public class Conveyor : MonoBehaviour
         return !holding;
     }
 
-    public bool DoServe()
+    public void DoServe()
     {
-        return false;
         //check bobacontroller contents against active orders
-
+        GameManager.instance.DeliverOrder();
     }
 
     public void AddHeld(BobaController bc)
@@ -65,7 +65,6 @@ public class Conveyor : MonoBehaviour
 
     private IEnumerator SendObject()
     {
-        yield return null;
         BobaController temp = held;
         holding = true;
         float t = 0f;
@@ -190,7 +189,30 @@ public class Conveyor : MonoBehaviour
         if (held != null)
         {
             //Take the container, shake it, and deposit it onto another conveyor belt upon completion
+            if(shakeRoutine == null)
+            {
+                held.transform.position = outplace.transform.position;
+                shakeRoutine = StartCoroutine(ShakeRoutine(outplace,held));
+                held = null;
+                holding = false;
+            }
         }
+    }
+
+    private IEnumerator ShakeRoutine(Conveyor outplace, BobaController bc)
+    {
+        float t = 0f;
+        while (t < GameManager.instance.shakeTime)
+        {
+            if (GameManager.instance.isPlaying)
+            {
+                t += Time.deltaTime;
+            }
+            yield return new WaitForEndOfFrame();
+        }
+        bc.ReceiveShake();
+        outplace.AddHeld(bc);
+        shakeRoutine = null;
     }
 
     public void DoTrash()
@@ -198,6 +220,9 @@ public class Conveyor : MonoBehaviour
         if(held != null)
         {
             //put the whole thing into the trash
+            Destroy(held.gameObject);
+            held = null;
+            holding = false;
         }
     }
 }

@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -8,6 +9,8 @@ public class GameManager : MonoBehaviour
 
     public float timer;
     public float maxTimer;
+
+    public TextMeshProUGUI moneyDisplay;
 
     public int money;
     public int orderValue;
@@ -22,6 +25,7 @@ public class GameManager : MonoBehaviour
     public Resource rsc_juice;
     public Resource rsc_tapioca;
     public Resource rsc_fruit;
+    public float shakeTime;
 
     public Image timerClock;
 
@@ -37,6 +41,13 @@ public class GameManager : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
+
+        UpdateMoney();
+    }
+
+    private void UpdateMoney()
+    {
+        moneyDisplay.text = "$" + money;
     }
 
     public void StartNewDay()
@@ -67,12 +78,14 @@ public class GameManager : MonoBehaviour
     {
         //you delivered an order that somebody was asking for
         money += orderValue;
+        UpdateMoney();
     }
 
     public void WrongOrder()
     {
         //you have delivered an order that nobody was asking for
         money -= orderValue;
+        UpdateMoney();
     }
 
     private void Update()

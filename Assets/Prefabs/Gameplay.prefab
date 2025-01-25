@@ -3062,8 +3062,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  maxTimer: 0
-  conveyorMoveSpeed: 1
+  maxTimer: 60
+  money: 0
+  orderValue: 3
+  conveyorMoveSpeed: 2
   isPlaying: 1
   rsc_cup: {fileID: 3022471390025600084}
   rsc_ice: {fileID: 3701601527832493312}
@@ -3072,6 +3074,7 @@ MonoBehaviour:
   rsc_juice: {fileID: 2487968932616823924}
   rsc_tapioca: {fileID: 1625333147360323842}
   rsc_fruit: {fileID: 7292326157064197646}
+  shakeTime: 1
   timerClock: {fileID: 0}
 --- !u!1 &4876702216471045989
 GameObject:
