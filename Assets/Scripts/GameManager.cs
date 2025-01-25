@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour
 
     public TextMeshProUGUI moneyDisplay;
 
+    public GameObject endOfDay;
+
     public int money;
     public int orderValue;
 
@@ -66,6 +68,7 @@ public class GameManager : MonoBehaviour
     private void EndDay()
     {
         //do end of day stuff here, like upgrades menu
+        endOfDay.SetActive(true);
     }
 
     public void GameFailed()
@@ -78,17 +81,12 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void DeliverOrder()
+    public void DeliverOrder(BobaController bc)
     {
-        //you delivered an order that somebody was asking for
+        //if bc == requested order, make money
         money += orderValue;
-        UpdateMoney();
-    }
-
-    public void WrongOrder()
-    {
-        //you have delivered an order that nobody was asking for
-        money -= orderValue;
+        //else if bc != requested order, lose money
+        //money -= (int)Mathf.Floor((float)orderValue / 2f);
         UpdateMoney();
     }
 

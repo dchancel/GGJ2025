@@ -30,7 +30,14 @@ public class Conveyor : MonoBehaviour
     public void DoServe()
     {
         //check bobacontroller contents against active orders
-        GameManager.instance.DeliverOrder();
+        GameManager.instance.DeliverOrder(held);
+        if(sendRoutine != null)
+        {
+            StopCoroutine(sendRoutine);
+        }
+        Destroy(held.gameObject);
+        held = null;
+        holding = false;
     }
 
     public void AddHeld(BobaController bc)
@@ -78,15 +85,23 @@ public class Conveyor : MonoBehaviour
                 //Do the actual conveyor stuff
                 t += Time.deltaTime;
                 yield return new WaitForEndOfFrame();
-                temp.transform.position = Vector3.Lerp(startPos,endPos,t/GameManager.instance.conveyorMoveSpeed);
-
-                if(t >= GameManager.instance.conveyorMoveSpeed / 2f)
+                if (temp == null)
                 {
-                    if(held == temp)
+                    t = GameManager.instance.conveyorMoveSpeed;
+                }
+                else
+                {
+
+                    temp.transform.position = Vector3.Lerp(startPos, endPos, t / GameManager.instance.conveyorMoveSpeed);
+
+                    if (t >= GameManager.instance.conveyorMoveSpeed / 2f)
                     {
-                        holding = false;
-                        held = null;
-                        nextConveyor.AddHeld(temp);
+                        if (held == temp)
+                        {
+                            holding = false;
+                            held = null;
+                            nextConveyor.AddHeld(temp);
+                        }
                     }
                 }
             }
