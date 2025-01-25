@@ -214,7 +214,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &519760974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -691,13 +691,49 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 5587271094528797910, guid: 2fae470e7356da048bbfbc734afcdc7d, type: 3}
+      propertyPath: ordersBar
+      value: 
+      objectReference: {fileID: 870986788}
+    - target: {fileID: 5587271094528797910, guid: 2fae470e7356da048bbfbc734afcdc7d, type: 3}
       propertyPath: timerClock
       value: 
       objectReference: {fileID: 1710158300}
     - target: {fileID: 5587271094528797910, guid: 2fae470e7356da048bbfbc734afcdc7d, type: 3}
+      propertyPath: orderPrefab
+      value: 
+      objectReference: {fileID: 213817515442507245, guid: 485fa8dcf72c6694aaeb0309a464d66c, type: 3}
+    - target: {fileID: 5587271094528797910, guid: 2fae470e7356da048bbfbc734afcdc7d, type: 3}
       propertyPath: moneyDisplay
       value: 
       objectReference: {fileID: 1710158302}
+    - target: {fileID: 5587271094528797910, guid: 2fae470e7356da048bbfbc734afcdc7d, type: 3}
+      propertyPath: orderInterval
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5587271094528797910, guid: 2fae470e7356da048bbfbc734afcdc7d, type: 3}
+      propertyPath: orderEmptySprite
+      value: 
+      objectReference: {fileID: 9008375805231659811, guid: 3d5a4d539e3764837b190a165e3684f9, type: 3}
+    - target: {fileID: 5587271094528797910, guid: 2fae470e7356da048bbfbc734afcdc7d, type: 3}
+      propertyPath: orderOptions.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5587271094528797910, guid: 2fae470e7356da048bbfbc734afcdc7d, type: 3}
+      propertyPath: 'orderOptions.Array.data[0]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 8dfc8676ac3014b32a3fc89b84712b64, type: 2}
+    - target: {fileID: 5587271094528797910, guid: 2fae470e7356da048bbfbc734afcdc7d, type: 3}
+      propertyPath: 'orderOptions.Array.data[1]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 8e9c3fba9e5b84e90861177273a26c21, type: 2}
+    - target: {fileID: 5587271094528797910, guid: 2fae470e7356da048bbfbc734afcdc7d, type: 3}
+      propertyPath: 'orderOptions.Array.data[2]'
+      value: 
+      objectReference: {fileID: 11400000, guid: d49996e9b2196ee479b087a7a9432f1b, type: 2}
+    - target: {fileID: 5587271094528797910, guid: 2fae470e7356da048bbfbc734afcdc7d, type: 3}
+      propertyPath: 'orderOptions.Array.data[3]'
+      value: 
+      objectReference: {fileID: 11400000, guid: bfd8b122f2b1ff043913e3a303cac6e6, type: 2}
     - target: {fileID: 7464438577910120218, guid: 2fae470e7356da048bbfbc734afcdc7d, type: 3}
       propertyPath: m_Name
       value: Gameplay

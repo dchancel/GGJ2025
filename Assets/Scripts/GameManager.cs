@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.Events;
+using System.Linq;
 
 public class GameManager : MonoBehaviour
 {
@@ -15,6 +16,15 @@ public class GameManager : MonoBehaviour
     public float timer;
     public float maxTimer;
 
+    [Header("Order Settings")]
+    public SO_BobaOrder[] orderOptions;
+    public GameObject ordersBar;
+    public float orderInterval;
+    public GameObject orderPrefab;
+    public GameObject orderEmptySprite;
+    public List<Order> activeOrders;
+
+    [Header("Not Order Settings")]
     public TextMeshProUGUI moneyDisplay;
 
     public GameObject endOfDay;
@@ -130,6 +140,10 @@ public class GameManager : MonoBehaviour
 
                 timerClock.fillAmount = timer / maxTimer;
 
+                float timeLeftInCurrentInterval = timer % orderInterval;
+                if (timeLeftInCurrentInterval > 0f && timeLeftInCurrentInterval < Time.deltaTime)
+                    AddOrder();
+
             }
             else
             {
@@ -139,6 +153,61 @@ public class GameManager : MonoBehaviour
         EndDay();
         dayTimer = null;
     }
+
+#region Order Functions
+    private void AddOrder()
+    {
+        int r = Random.Range(0, orderOptions.Length);
+        CreateOrder(orderOptions[r]);
+    }
+
+    private void CreateOrder(SO_BobaOrder bo)
+    {
+        // create a game object and grab the slot for sprites to be added to
+        Order go = Instantiate(orderPrefab).GetComponent<Order>();
+        GameObject slot = go.GetComponent<Order>().GetSpriteSlot();
+
+        // create another go to hold image component for each sprite
+        GameObject temp1 = Instantiate(orderEmptySprite);
+        temp1.GetComponent<Image>().sprite = bo.GetCupSprite();
+
+        GameObject temp2 = Instantiate(orderEmptySprite);
+        temp2.GetComponent<Image>().sprite = bo.GetMixerSprite();
+
+        GameObject temp3 = Instantiate(orderEmptySprite);
+        temp3.GetComponent<Image>().sprite = bo.GetSolidsSprite();
+
+        GameObject temp4 = Instantiate(orderEmptySprite);
+        temp4.GetComponent<Image>().sprite = bo.GetIceSprite();
+
+        // add go's with images to slot
+        // if template images are left blank dont add the GO
+        if (bo.GetCupSprite() != null)
+            temp1.transform.parent = slot.transform;
+        if (bo.GetMixerSprite() != null)
+            temp2.transform.parent = slot.transform;
+        if (bo.GetSolidsSprite() != null)
+            temp3.transform.parent = slot.transform;
+        if (bo.GetIceSprite() != null)
+            temp4.transform.parent = slot.transform;
+
+        // add completed order to bar
+        go.transform.parent = ordersBar.transform;
+        
+        activeOrders.Add(go);
+    }
+
+    public void RemoveOrder(Order o)
+    {
+        if (activeOrders.Contains(o))
+        {
+            Debug.Log("delete");
+            activeOrders.Remove(o);
+            //ordersBar.gameObj
+            Destroy(o.gameObject);
+        }
+    }
+#endregion
 }
 
 [System.Serializable]

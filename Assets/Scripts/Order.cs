@@ -24,6 +24,9 @@ public class Order : MonoBehaviour
 
     private void SliderColor()
     {
+        if (!GameManager.instance.isPlaying)
+            return;
+
         timeElapsed += Time.deltaTime;
         float normalizedTime = (timeElapsed % timeAllowed) / timeAllowed;
 
@@ -47,7 +50,7 @@ public class Order : MonoBehaviour
 
         if (timeElapsed > timeAllowed)
         {
-            Debug.LogError("hello, the order expired please add code in Order.cs");
+            GameManager.instance.RemoveOrder(this);
         }
     }
 }
