@@ -31,7 +31,7 @@ public class EndOfDay : MonoBehaviour
         for (int i = 0; i < 3; i++)
         {
             int temp = Random.Range(0,possibleUpgrades.Count);
-            while(temp == firstIndex || temp == secondIndex)
+            while(temp == firstIndex || temp == secondIndex || possibleUpgrades[temp].firstDayAvailable > GameManager.instance.day)
             {
                 temp = Random.Range(0, possibleUpgrades.Count);
             }
@@ -151,5 +151,6 @@ public class Upgrade
     public Sprite icon;
     public string description;
     public int cost;
+    public int firstDayAvailable;
     public string identifier;
 }

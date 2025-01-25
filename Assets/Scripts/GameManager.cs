@@ -1,11 +1,16 @@
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Events;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
+
+    public int day = 0;
+    public List<DayData> dayUpgrades = new List<DayData>();
 
     public float timer;
     public float maxTimer;
@@ -61,6 +66,14 @@ public class GameManager : MonoBehaviour
         if(dayTimer != null)
         {
             StopCoroutine(dayTimer);
+        }
+        day++;
+        for(int i = 0; i < dayUpgrades.Count; i++)
+        {
+            if(day == dayUpgrades[i].dayNumber)
+            {
+                dayUpgrades[i].newEffects.Invoke();
+            }
         }
         dayTimer = StartCoroutine(DayTimer());
     }
@@ -126,4 +139,11 @@ public class GameManager : MonoBehaviour
         EndDay();
         dayTimer = null;
     }
+}
+
+[System.Serializable]
+public class DayData
+{
+    public int dayNumber;
+    public UnityEvent newEffects;
 }
