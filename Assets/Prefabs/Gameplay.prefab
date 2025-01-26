@@ -4902,6 +4902,8 @@ MonoBehaviour:
   orderEmptySprite: {fileID: 9008375805231659811, guid: 3d5a4d539e3764837b190a165e3684f9, type: 3}
   activeOrders: []
   moneyDisplay: {fileID: 0}
+  timerClock: {fileID: 0}
+  dayTimeDisplay: {fileID: 0}
   endOfDay: {fileID: 7840074388090849481}
   money: 0
   orderValue: 3
@@ -4915,7 +4917,6 @@ MonoBehaviour:
   rsc_tapioca: {fileID: 1625333147360323842}
   rsc_fruit: {fileID: 7292326157064197646}
   shakeTime: 1
-  timerClock: {fileID: 0}
 --- !u!1 &4876702216471045989
 GameObject:
   m_ObjectHideFlags: 0
@@ -5228,7 +5229,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8264451977149626530
 Transform:
   m_ObjectHideFlags: 0
@@ -5868,6 +5869,7 @@ GameObject:
   - component: {fileID: 1843714819411963886}
   - component: {fileID: 1488126645282699144}
   - component: {fileID: 5294745360116129731}
+  - component: {fileID: 6771609045272538618}
   m_Layer: 0
   m_Name: Conveyor_Turn
   m_TagString: Untagged
@@ -6001,6 +6003,30 @@ SpriteMask:
   m_IsCustomRangeActive: 0
   m_SpriteSortPoint: 0
   m_MaskSource: 0
+--- !u!114 &6771609045272538618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5835345050801029634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25ead71044f360542af42ca7d840e5cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextConveyor: {fileID: 4464414283970505185}
+  held: {fileID: 0}
+  isServingWindow: 0
+  isStopGap: 0
+  wheels: []
+  movingLeft: 0
+  conveyorArt: {fileID: 1488126645282699144}
+  animSprite:
+  - {fileID: 21300000, guid: 58c3634318d6516459b9b3e10a4db0c3, type: 3}
+  - {fileID: 21300000, guid: 8275c58b082e54141b15b11d9fc66c6a, type: 3}
+  - {fileID: 21300000, guid: 6b7b84e220fd5cc499e3ae6a4951af0f, type: 3}
+  - {fileID: 21300000, guid: e0ffa89a551255c428be1c53fff2690e, type: 3}
 --- !u!1 &6281065637463686782
 GameObject:
   m_ObjectHideFlags: 0
