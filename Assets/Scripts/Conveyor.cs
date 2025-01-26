@@ -283,7 +283,7 @@ public class Conveyor : MonoBehaviour
             }
             yield return new WaitForEndOfFrame();
         }
-        if (bc.gameObject != null)
+        if (bc != null)
         {
             bc.transform.position = outplace.transform.position;
             bc.gameObject.SetActive(true);
