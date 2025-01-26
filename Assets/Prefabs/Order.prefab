@@ -114,7 +114,7 @@ MonoBehaviour:
   spritesSlot: {fileID: 5596700286710417167}
   slider: {fileID: 3293300994952725764}
   fillImage: {fileID: 4263287526109000430}
-  timeAllowed: 30
+  timeAllowed: 60
   fullColor: {r: 0, g: 1, b: 0, a: 1}
   middleColor: {r: 1, g: 1, b: 0, a: 1}
   emptyColor: {r: 1, g: 0, b: 0, a: 1}

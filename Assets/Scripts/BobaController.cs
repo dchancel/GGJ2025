@@ -23,6 +23,7 @@ public class BobaController : MonoBehaviour
     public GameObject fruitmilkLayer;
     public GameObject milkteaLayer;
     public GameObject teajuiceLayer;
+    public GameObject lidLayer;
 
     private void Start()
     {
@@ -138,5 +139,6 @@ public class BobaController : MonoBehaviour
         shaken = true;
         lid = true;
         SoundManager.instance.PlaySound(SoundManager.instance.shake);
+        lidLayer.SetActive(true);
     }
 }
