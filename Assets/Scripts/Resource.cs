@@ -17,6 +17,8 @@ public class Resource : Clickable
     private Coroutine refreshRoutine;
     private SpriteRenderer sr;
 
+    private bool hasInitialized = false;
+
     private void Start()
     {
         sr = GetComponent<SpriteRenderer>();
@@ -40,7 +42,11 @@ public class Resource : Clickable
         resourcesAvailable = maxResources;
         refreshWheel.fillAmount = 0f;
         sr.color = baseColor;
-        SoundManager.instance.PlaySound(soundEffect);
+        if (hasInitialized)
+        {
+            SoundManager.instance.PlaySound(soundEffect);
+        }
+        hasInitialized = true;
         UpdateResourceDisplay();
     }
 

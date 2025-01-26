@@ -31,4 +31,9 @@ public class MusicManager : MonoBehaviour
             PickSong();
         }
     }
+
+    public void SetVolume(float f)
+    {
+        aud.volume = f;
+    }
 }

@@ -35,4 +35,9 @@ public class SoundManager : MonoBehaviour
     {
         aud.PlayOneShot(ac);
     }
+
+    public void SetVolume(float f)
+    {
+        aud.volume = f;
+    }
 }
