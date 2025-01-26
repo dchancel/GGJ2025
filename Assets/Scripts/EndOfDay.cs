@@ -91,6 +91,18 @@ public class EndOfDay : MonoBehaviour
         }
         else
         {
+            if(index == 0)
+            {
+                index = firstIndex;
+            } else if(index == 1)
+            {
+                index = secondIndex;
+            } else if(index == 2)
+            {
+                index = secondIndex;
+            }
+
+
             switch (possibleUpgrades[index].identifier)
             {
                 case ("ConveyorSpeed"):
@@ -149,6 +161,7 @@ public class EndOfDay : MonoBehaviour
                     break;
             }
             GameManager.instance.money -= possibleUpgrades[index].cost;
+            Debug.Log("Spending " + possibleUpgrades[index].cost);
             possibleUpgrades[index].cost += 5;
         }
         gameObject.SetActive(false);
