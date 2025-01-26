@@ -3,6 +3,8 @@ using UnityEngine.UI;
 
 public class Order : MonoBehaviour
 {
+    private SO_BobaOrder soBobaOrder; // for comparison when completing orders
+
     [Header("Components")]
     [SerializeField] private GameObject spritesSlot;
     [SerializeField] private Slider slider;
@@ -16,10 +18,16 @@ public class Order : MonoBehaviour
     private float timeElapsed;
 
     public GameObject GetSpriteSlot() { return spritesSlot; }
+    public SO_BobaOrder GetBobaOrderSO() { return soBobaOrder; }
 
     private void Update()
     {
         SliderColor();
+    }
+
+    public void Initialize(SO_BobaOrder bo)
+    {
+        soBobaOrder = bo;
     }
 
     private void SliderColor()
@@ -50,6 +58,7 @@ public class Order : MonoBehaviour
 
         if (timeElapsed > timeAllowed)
         {
+            GameManager.instance.GameFailed();
             GameManager.instance.RemoveOrder(this);
         }
     }

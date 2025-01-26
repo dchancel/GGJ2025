@@ -106,10 +106,15 @@ public class GameManager : MonoBehaviour
 
     public void DeliverOrder(BobaController bc)
     {
-        //if bc == requested order, make money
-        money += orderValue;
-        //else if bc != requested order, lose money
-        //money -= (int)Mathf.Floor((float)orderValue / 2f);
+        if (CompareOrders(bc))
+        {
+            money += orderValue;
+        }
+        else
+        {
+            money -= (int)Mathf.Floor((float)orderValue / 2f);
+        }
+        
         UpdateMoney();
     }
 
@@ -131,6 +136,7 @@ public class GameManager : MonoBehaviour
     private IEnumerator DayTimer()
     {
         timer = maxTimer;
+        AddOrder();
         while (timer > 0f)
         {
             if (isPlaying)
@@ -165,6 +171,7 @@ public class GameManager : MonoBehaviour
     {
         // create a game object and grab the slot for sprites to be added to
         Order go = Instantiate(orderPrefab).GetComponent<Order>();
+        go.Initialize(bo);
         GameObject slot = go.GetComponent<Order>().GetSpriteSlot();
 
         // create another go to hold image component for each sprite
@@ -197,13 +204,29 @@ public class GameManager : MonoBehaviour
         activeOrders.Add(go);
     }
 
+    private bool CompareOrders(BobaController bc)
+    {
+        for (int i = 0; i < activeOrders.Count; i++)
+        {
+            SO_BobaOrder tmp = activeOrders[i].GetBobaOrderSO();
+            if (tmp.mixer == bc.mixer && 
+                tmp.solids == bc.solids &&
+                tmp.ice == bc.ice &&
+                tmp.baseType == bc.baseType)
+            {
+                RemoveOrder(activeOrders[i]);
+                return true;
+            }
+        }
+        
+        return false;
+    }
+
     public void RemoveOrder(Order o)
     {
         if (activeOrders.Contains(o))
         {
-            Debug.Log("delete");
             activeOrders.Remove(o);
-            //ordersBar.gameObj
             Destroy(o.gameObject);
         }
     }
