@@ -118,6 +118,9 @@ MonoBehaviour:
   fullColor: {r: 0, g: 1, b: 0, a: 1}
   middleColor: {r: 1, g: 1, b: 0, a: 1}
   emptyColor: {r: 1, g: 0, b: 0, a: 1}
+  shakeable: {fileID: 5469025976804683295}
+  shakeAmount: 1
+  shakeHighAmount: 3
 --- !u!1 &2168553101200293776
 GameObject:
   m_ObjectHideFlags: 0
