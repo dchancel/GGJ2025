@@ -85,6 +85,8 @@ public class GameManager : MonoBehaviour
 
     public void StartNewDay()
     {
+        UpdateMoney();
+
         if(dayTimer != null)
         {
             StopCoroutine(dayTimer);
