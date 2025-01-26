@@ -28,6 +28,7 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI moneyDisplay;
     public Image timerClock;
     public TextMeshProUGUI dayTimeDisplay;
+    public GameObject pauseScreen;
 
     [Header("Not Order Settings")]
     public GameObject endOfDay;
@@ -140,6 +141,7 @@ public class GameManager : MonoBehaviour
     public void PauseAndResume()
     {
         isPlaying = !isPlaying;
+        pauseScreen.SetActive(!pauseScreen.activeInHierarchy);
     }
 
     private IEnumerator DayTimer()
