@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.Events;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -29,6 +30,7 @@ public class GameManager : MonoBehaviour
     public Image timerClock;
     public TextMeshProUGUI dayTimeDisplay;
     public GameObject pauseScreen;
+    public GameObject lossScreen;
 
     [Header("Not Order Settings")]
     public GameObject endOfDay;
@@ -102,11 +104,18 @@ public class GameManager : MonoBehaviour
     public void GameFailed()
     {
         //call this if an order gets unfulfilled for long enough that you run out of time
+        lossScreen.SetActive(true);
 
         if(dayTimer != null)
         {
+            isPlaying= false;
             StopCoroutine(dayTimer);
         }
+    }
+
+    public void Reload()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void DeliverOrder(BobaController bc)
