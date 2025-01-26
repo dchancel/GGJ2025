@@ -5895,7 +5895,7 @@ MonoBehaviour:
   orderOptions:
   - {fileID: 11400000, guid: 8dfc8676ac3014b32a3fc89b84712b64, type: 2}
   ordersBar: {fileID: 0}
-  orderInterval: 50
+  orderInterval: 10
   orderTime: 60
   orderIsInfinite: 0
   orderPrefab: {fileID: 213817515442507245, guid: 485fa8dcf72c6694aaeb0309a464d66c, type: 3}
@@ -9358,7 +9358,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 6f915b667ec55c34e9815943aaf27cc9, type: 3}
   m_Color: {r: 0.882353, g: 0.48235297, b: 0.4784314, a: 1}
   m_FlipX: 0

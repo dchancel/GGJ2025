@@ -98,10 +98,10 @@ public class GameManager : MonoBehaviour
         }
 
         orderTime *= 0.9f;
-        orderTime = Mathf.Clamp(orderTime,30f, 120f);
+        orderTime = Mathf.Clamp(orderTime,20f, 120f);
 
         orderInterval *= 0.8f;
-        orderInterval = Mathf.Clamp(orderInterval, 5f, 100f);
+        orderInterval = Mathf.Clamp(orderInterval, 3f, 100f);
 
         for(int i = 0; i < dayUpgrades.Count; i++)
         {
