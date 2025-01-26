@@ -17,7 +17,12 @@ public class EndOfDay : MonoBehaviour
 
     private void OnEnable()
     {
-        
+        GameManager.instance.isPlaying = false;
+    }
+
+    private void OnDisable()
+    {
+        GameManager.instance.isPlaying = true;
     }
 
     public void ResetOptions()
