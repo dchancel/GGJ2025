@@ -26,14 +26,10 @@ public class Conveyor : MonoBehaviour
 
     private int animationIndex = 0;
     private int framesRemaining = 0;
-    private int animationFrames = 30;
-
-    private Vector3 offset;
+    private int animationFrames = 60;
 
     private void Start()
     {
-        offset = new Vector3(0f, 0.1f, 0f);
-
         if (tickRoutine == null)
         {
             tickRoutine = StartCoroutine(Tick());
