@@ -13,7 +13,7 @@ public class Order : MonoBehaviour
     [SerializeField] private Image fillImage;
 
     [Header("Settings")]
-    [SerializeField] private float timeAllowed;
+    private float timeAllowed;
     [SerializeField] private Color fullColor;
     [SerializeField] private Color middleColor;
     [SerializeField] private Color emptyColor;
@@ -31,6 +31,11 @@ public class Order : MonoBehaviour
         textStartPos = shakeable.localPosition;
     }
 
+    private void Start()
+    {
+        timeAllowed = GameManager.instance.orderTime;
+    }
+
     private void Update()
     {
         SliderColor();
@@ -43,7 +48,7 @@ public class Order : MonoBehaviour
 
     private void SliderColor()
     {
-        if (!GameManager.instance.isPlaying)
+        if (!GameManager.instance.isPlaying || GameManager.instance.orderIsInfinite)
             return;
 
         timeElapsed += Time.deltaTime;

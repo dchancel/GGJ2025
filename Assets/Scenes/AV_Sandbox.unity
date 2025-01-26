@@ -2067,10 +2067,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 353823137}
     - target: {fileID: 5587271094528797910, guid: 2fae470e7356da048bbfbc734afcdc7d, type: 3}
-      propertyPath: orderInterval
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 5587271094528797910, guid: 2fae470e7356da048bbfbc734afcdc7d, type: 3}
       propertyPath: dayTimeDisplay
       value: 
       objectReference: {fileID: 876143379}

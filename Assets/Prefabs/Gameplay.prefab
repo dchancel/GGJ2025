@@ -4816,6 +4816,22 @@ MonoBehaviour:
     newEffects:
       m_PersistentCalls:
         m_Calls:
+        - m_Target: {fileID: 2894506435838335146}
+          m_TargetAssemblyTypeName: TutorialController, Assembly-CSharp
+          m_MethodName: NewTutorial
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: 9b5b9b7eb72887f44a649a891d5dad78, type: 2}
+            m_ObjectArgumentAssemblyTypeName: SO_TutorialData, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+  - dayNumber: 3
+    newEffects:
+      m_PersistentCalls:
+        m_Calls:
         - m_Target: {fileID: 6281065637463686782}
           m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_MethodName: SetActive
@@ -4852,7 +4868,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 1
           m_CallState: 2
-  - dayNumber: 4
+  - dayNumber: 5
     newEffects:
       m_PersistentCalls:
         m_Calls:
@@ -4897,7 +4913,9 @@ MonoBehaviour:
   orderOptions:
   - {fileID: 11400000, guid: 8dfc8676ac3014b32a3fc89b84712b64, type: 2}
   ordersBar: {fileID: 0}
-  orderInterval: 10
+  orderInterval: 50
+  orderTime: 60
+  orderIsInfinite: 0
   orderPrefab: {fileID: 213817515442507245, guid: 485fa8dcf72c6694aaeb0309a464d66c, type: 3}
   orderEmptySprite: {fileID: 9008375805231659811, guid: 3d5a4d539e3764837b190a165e3684f9, type: 3}
   activeOrders: []
@@ -7668,92 +7686,92 @@ MonoBehaviour:
   possibleUpgrades:
   - icon: {fileID: 0}
     description: Increase conveyor speed by 10%
-    cost: 30
+    cost: 3
     firstDayAvailable: 0
     identifier: ConveyorSpeed
   - icon: {fileID: 0}
     description: Hold 3 more cups at a time
-    cost: 40
+    cost: 4
     firstDayAvailable: 0
     identifier: CupAmount
   - icon: {fileID: 0}
     description: Increase cup restock speed by 25%
-    cost: 25
+    cost: 3
     firstDayAvailable: 0
     identifier: CupTime
   - icon: {fileID: 0}
     description: Hold 3 more servings of ice at a time
-    cost: 40
+    cost: 4
     firstDayAvailable: 0
     identifier: IceAmount
   - icon: {fileID: 0}
     description: Increase ice restock speed by 25%
-    cost: 45
+    cost: 5
     firstDayAvailable: 0
     identifier: IceTime
   - icon: {fileID: 0}
     description: Make 6 more servings of tea at a time
-    cost: 35
+    cost: 4
     firstDayAvailable: 0
     identifier: TeaAmount
   - icon: {fileID: 0}
     description: Increase tea brewing speed by 20%
-    cost: 20
+    cost: 2
     firstDayAvailable: 0
     identifier: TeaTime
   - icon: {fileID: 0}
     description: Hold 5 more servings of milk at a time
-    cost: 40
+    cost: 4
     firstDayAvailable: 0
     identifier: MilkAmount
   - icon: {fileID: 0}
     description: Increase milk restock speed by 20%
-    cost: 45
+    cost: 5
     firstDayAvailable: 0
     identifier: MilkTime
   - icon: {fileID: 0}
     description: Hold 5 more servings of juice at a time
-    cost: 30
-    firstDayAvailable: 2
+    cost: 3
+    firstDayAvailable: 3
     identifier: JuiceAmount
   - icon: {fileID: 0}
     description: Increase juice restock speed by 20%
-    cost: 35
-    firstDayAvailable: 2
+    cost: 4
+    firstDayAvailable: 3
     identifier: JuiceTime
   - icon: {fileID: 0}
     description: Make 2 more servings of tapioca pearls at a time
-    cost: 20
+    cost: 2
     firstDayAvailable: 0
     identifier: BobaAmount
   - icon: {fileID: 0}
     description: Hold 5 more servings of juice at a time
-    cost: 25
+    cost: 3
     firstDayAvailable: 0
     identifier: JuiceAmount
   - icon: {fileID: 0}
     description: Hold 1 more serving of strawberries at a time
-    cost: 40
-    firstDayAvailable: 4
+    cost: 4
+    firstDayAvailable: 5
     identifier: FruitAmount
   - icon: {fileID: 0}
     description: Increase strawberry chopping speed by 50%
-    cost: 35
-    firstDayAvailable: 4
+    cost: 4
+    firstDayAvailable: 5
     identifier: FruitTime
   - icon: {fileID: 0}
     description: Increase boba shaking speed by 5%
-    cost: 50
+    cost: 5
     firstDayAvailable: 0
     identifier: ShakeSpeed
   - icon: {fileID: 0}
     description: Increase value of finished orders by $1
-    cost: 50
+    cost: 5
     firstDayAvailable: 0
     identifier: OrderValue
   - icon: {fileID: 0}
     description: Stay open 25% longer
-    cost: 100
+    cost: 10
     firstDayAvailable: 0
     identifier: LongerDays
   upgradeButton:

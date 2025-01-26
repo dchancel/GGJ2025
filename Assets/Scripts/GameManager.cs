@@ -21,6 +21,8 @@ public class GameManager : MonoBehaviour
     public SO_BobaOrder[] orderOptions;
     public GameObject ordersBar;
     public float orderInterval;
+    public float orderTime;
+    [HideInInspector] public bool orderIsInfinite;
     public GameObject orderPrefab;
     public GameObject orderEmptySprite;
     public List<Order> activeOrders;
@@ -83,6 +85,21 @@ public class GameManager : MonoBehaviour
             StopCoroutine(dayTimer);
         }
         day++;
+        if(day == 1)
+        {
+            orderIsInfinite = true;
+        }
+        else
+        {
+            orderIsInfinite = false;
+        }
+
+        orderTime *= 0.9f;
+        orderTime = Mathf.Clamp(orderTime,30f, 120f);
+
+        orderInterval *= 0.8f;
+        orderInterval = Mathf.Clamp(orderInterval, 5f, 100f);
+
         for(int i = 0; i < dayUpgrades.Count; i++)
         {
             if(day == dayUpgrades[i].dayNumber)
