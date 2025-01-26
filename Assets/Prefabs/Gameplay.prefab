@@ -7519,7 +7519,7 @@ MonoBehaviour:
   refreshTime: 2
   refreshWheel: {fileID: 6459362719074272603}
   resourceDisplay: {fileID: 1155104963476811736}
-  soundEffect: {fileID: 8300000, guid: 3b4ae2d175876dd49a66d00b7c80733b, type: 3}
+  soundEffect: {fileID: 8300000, guid: a9698d826dfbd414891a336014b67ff2, type: 3}
 --- !u!61 &3750642987672705429
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9945,16 +9945,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc7091ed9f0755d46a649932006e8284, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newOrder: {fileID: 0}
+  newOrder: {fileID: 8300000, guid: 5047d0dd85135e343a902518380f416b, type: 3}
   addCup: {fileID: 8300000, guid: 6c1bcc68df4e0b04fb68a78ef7199132, type: 3}
   addIce: {fileID: 8300000, guid: ac59657352eb71f4ba7551149753e0e2, type: 3}
   addMilk: {fileID: 8300000, guid: 24a6b85cebf950943b4d06d090a24a91, type: 3}
   addTea: {fileID: 8300000, guid: 78fa43428c8ee6f44815aeefea780760, type: 3}
   addJuice: {fileID: 8300000, guid: 24a6b85cebf950943b4d06d090a24a91, type: 3}
-  addBoba: {fileID: 0}
-  addFruit: {fileID: 0}
+  addBoba: {fileID: 8300000, guid: 28f010045d3ac1047a2a77d68a8e12e1, type: 3}
+  addFruit: {fileID: 8300000, guid: 28f010045d3ac1047a2a77d68a8e12e1, type: 3}
   shake: {fileID: 0}
-  serve: {fileID: 0}
+  serve: {fileID: 8300000, guid: f095e7c817ee3694d869ff79ba118290, type: 3}
+  wrongOrder: {fileID: 8300000, guid: 33b9dec24dc0d594b954f803e80957a3, type: 3}
 --- !u!1 &8635642282641610893
 GameObject:
   m_ObjectHideFlags: 0

@@ -45,6 +45,7 @@ public class Order : MonoBehaviour
     public void Initialize(SO_BobaOrder bo)
     {
         soBobaOrder = bo;
+        SoundManager.instance.PlaySound(SoundManager.instance.newOrder);
     }
 
     private void SliderColor()

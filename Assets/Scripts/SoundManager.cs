@@ -14,6 +14,7 @@ public class SoundManager : MonoBehaviour
     public AudioClip addFruit;
     public AudioClip shake;
     public AudioClip serve;
+    public AudioClip wrongOrder;
 
     private AudioSource aud;
 

@@ -172,10 +172,12 @@ public class GameManager : MonoBehaviour
         if (CompareOrders(bc))
         {
             money += orderValue;
+            SoundManager.instance.PlaySound(SoundManager.instance.serve);
         }
         else
         {
             money -= (int)Mathf.Floor((float)orderValue / 2f);
+            SoundManager.instance.PlaySound(SoundManager.instance.wrongOrder);
         }
         
         UpdateMoney();
