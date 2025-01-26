@@ -16,7 +16,7 @@ MonoBehaviour:
   cup: 1
   baseType: Tea
   mixer: 1
-  solids: 1
+  solids: 2
   lid: 1
   ice: 1
   shaken: 1
