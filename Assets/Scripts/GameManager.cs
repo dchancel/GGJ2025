@@ -54,6 +54,7 @@ public class GameManager : MonoBehaviour
 
 
     private Coroutine dayTimer;
+    private List<BobaController> activeBoba = new List<BobaController>();
 
     private void OnEnable()
     {
@@ -110,12 +111,42 @@ public class GameManager : MonoBehaviour
         dayTimer = StartCoroutine(DayTimer());
 
         dayTimeDisplay.text = "Time left in day " + day + ":";
+        if (day > 1)
+        {
+            RefreshForDay();
+        }
+    }
+
+    public void AddBobaController(BobaController bc)
+    {
+        activeBoba.Add(bc);
+    }
+
+    private void RefreshForDay()
+    {
+        rsc_cup.FillResourcesSilently();
+        rsc_fruit.FillResourcesSilently();
+        rsc_ice.FillResourcesSilently();
+        rsc_juice.FillResourcesSilently();
+        rsc_milk.FillResourcesSilently();
+        rsc_tapioca.FillResourcesSilently();
+        rsc_tea.FillResourcesSilently();
+
+        for(int i = 0; i < activeBoba.Count; i++)
+        {
+            if (activeBoba[i] != null)
+            {
+                Destroy(activeBoba[i].gameObject);
+            }
+        }
+        activeBoba.Clear();
     }
 
     private void EndDay()
     {
         //do end of day stuff here, like upgrades menu
         endOfDay.SetActive(true);
+        endOfDay.GetComponent<EndOfDay>().ResetOptions();
     }
 
     public void GameFailed()

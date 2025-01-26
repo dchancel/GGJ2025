@@ -17,6 +17,11 @@ public class EndOfDay : MonoBehaviour
 
     private void OnEnable()
     {
+        
+    }
+
+    public void ResetOptions()
+    {
         DetermineAvailableUpgrades();
     }
 
@@ -38,13 +43,13 @@ public class EndOfDay : MonoBehaviour
             switch (i)
             {
                 case (0):
-                    firstIndex = i;
+                    firstIndex = temp;
                     break;
                 case (1):
-                    secondIndex = i;
+                    secondIndex = temp;
                     break;
                 case (2):
-                    thirdIndex = i;
+                    thirdIndex = temp;
                     break;
             }
         }

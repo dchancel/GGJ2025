@@ -28,6 +28,7 @@ public class BobaController : MonoBehaviour
     private void Start()
     {
         SoundManager.instance.PlaySound(SoundManager.instance.addCup);
+        GameManager.instance.AddBobaController(this);
     }
 
     public void ReceiveIce()

@@ -39,6 +39,10 @@ public class Resource : Clickable
 
     private void FillResources()
     {
+        if(sr == null)
+        {
+            return;
+        }
         resourcesAvailable = maxResources;
         refreshWheel.fillAmount = 0f;
         sr.color = baseColor;
@@ -48,6 +52,12 @@ public class Resource : Clickable
         }
         hasInitialized = true;
         UpdateResourceDisplay();
+    }
+
+    public void FillResourcesSilently()
+    {
+        hasInitialized = false;
+        FillResources();
     }
 
     public void RefreshResource()
