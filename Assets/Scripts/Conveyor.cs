@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 
 public class Conveyor : MonoBehaviour
 {
@@ -12,6 +13,9 @@ public class Conveyor : MonoBehaviour
     public List<Transform> wheels = new List<Transform>();
     public bool movingLeft;
 
+    public SpriteRenderer conveyorArt;
+    public List<Sprite> animSprite = new List<Sprite>();
+
     private bool holding = false;
     private Coroutine sendRoutine;
 
@@ -20,8 +24,16 @@ public class Conveyor : MonoBehaviour
 
     private float wheelSpeed = -200f;
 
+    private int animationIndex = 0;
+    private int framesRemaining = 0;
+    private int animationFrames = 30;
+
+    private Vector3 offset;
+
     private void Start()
     {
+        offset = new Vector3(0f, 0.1f, 0f);
+
         if (tickRoutine == null)
         {
             tickRoutine = StartCoroutine(Tick());
@@ -139,6 +151,21 @@ public class Conveyor : MonoBehaviour
         for(int i = 0; i < wheels.Count; i++)
         {
             wheels[i].Rotate(Vector3.forward, wheelSpeed * (1f/GameManager.instance.conveyorMoveSpeed) * Time.deltaTime);
+        }
+
+        framesRemaining--;
+
+        if(framesRemaining < 0)
+        {
+            animationIndex++;
+            if(animationIndex > animSprite.Count - 1)
+            {
+                animationIndex = 0;
+            }
+
+            conveyorArt.sprite = animSprite[animationIndex];
+
+            framesRemaining = animationFrames;
         }
     }
 
