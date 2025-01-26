@@ -24,9 +24,12 @@ public class GameManager : MonoBehaviour
     public GameObject orderEmptySprite;
     public List<Order> activeOrders;
 
-    [Header("Not Order Settings")]
+    [Header("UI")]
     public TextMeshProUGUI moneyDisplay;
+    public Image timerClock;
+    public TextMeshProUGUI dayTimeDisplay;
 
+    [Header("Not Order Settings")]
     public GameObject endOfDay;
 
     public int money;
@@ -44,7 +47,6 @@ public class GameManager : MonoBehaviour
     public Resource rsc_fruit;
     public float shakeTime;
 
-    public Image timerClock;
 
     private Coroutine dayTimer;
 
@@ -86,6 +88,8 @@ public class GameManager : MonoBehaviour
             }
         }
         dayTimer = StartCoroutine(DayTimer());
+
+        dayTimeDisplay.text = "Time left in day " + day + ":";
     }
 
     private void EndDay()
