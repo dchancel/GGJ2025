@@ -34,6 +34,7 @@ public class Order : MonoBehaviour
     private void Start()
     {
         timeAllowed = GameManager.instance.orderTime;
+        //slider.gameObject.SetActive(!GameManager.instance.orderIsInfinite);
     }
 
     private void Update()

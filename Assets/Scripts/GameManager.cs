@@ -147,6 +147,7 @@ public class GameManager : MonoBehaviour
         //do end of day stuff here, like upgrades menu
         endOfDay.SetActive(true);
         endOfDay.GetComponent<EndOfDay>().ResetOptions();
+        ResetOrders();
     }
 
     public void GameFailed()
@@ -297,6 +298,15 @@ public class GameManager : MonoBehaviour
             activeOrders.Remove(o);
             Destroy(o.gameObject);
         }
+    }
+
+    private void ResetOrders()
+    {
+        for (int i = 0; i < activeOrders.Count; i++)
+        {
+            Destroy(activeOrders[i].gameObject);
+        }
+        activeOrders.Clear();
     }
 #endregion
 }
