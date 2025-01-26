@@ -24,10 +24,17 @@ public class BobaController : MonoBehaviour
     public GameObject milkteaLayer;
     public GameObject teajuiceLayer;
 
+    private void Start()
+    {
+        SoundManager.instance.PlaySound(SoundManager.instance.addCup);
+    }
+
     public void ReceiveIce()
     {
         ice = true;
         iceLayer.SetActive(true);
+
+        SoundManager.instance.PlaySound(SoundManager.instance.addIce);
     }
 
     public void ReceiveTea()
@@ -47,6 +54,9 @@ public class BobaController : MonoBehaviour
         {
             teaLayer.SetActive(true);
         }
+
+        SoundManager.instance.PlaySound(SoundManager.instance.addTea);
+
     }
 
     public void ReceiveMilk()
@@ -69,6 +79,8 @@ public class BobaController : MonoBehaviour
         else {
             milkLayer.SetActive(true);
         }
+
+        SoundManager.instance.PlaySound(SoundManager.instance.addMilk);
     }
 
     public void ReceiveJuice()
@@ -87,6 +99,8 @@ public class BobaController : MonoBehaviour
         {
             juiceLayer.SetActive(true);
         }
+
+        SoundManager.instance.PlaySound(SoundManager.instance.addJuice);
     }
 
     public void ReceiveTapioca()
@@ -101,6 +115,7 @@ public class BobaController : MonoBehaviour
         }
 
         bobaLayer.SetActive(true);
+        SoundManager.instance.PlaySound(SoundManager.instance.addBoba);
     }
 
     public void ReceiveFruit()
@@ -115,11 +130,13 @@ public class BobaController : MonoBehaviour
         }
 
         fruitLayer.SetActive(true);
+        SoundManager.instance.PlaySound(SoundManager.instance.addFruit);
     }
 
     public void ReceiveShake()
     {
         shaken = true;
         lid = true;
+        SoundManager.instance.PlaySound(SoundManager.instance.shake);
     }
 }

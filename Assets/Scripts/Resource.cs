@@ -11,6 +11,8 @@ public class Resource : Clickable
     [SerializeField] private Image refreshWheel;
     [SerializeField] private Image resourceDisplay;
 
+    [SerializeField] public AudioClip soundEffect;
+
     private Color baseColor;
     private Coroutine refreshRoutine;
     private SpriteRenderer sr;
@@ -38,6 +40,7 @@ public class Resource : Clickable
         resourcesAvailable = maxResources;
         refreshWheel.fillAmount = 0f;
         sr.color = baseColor;
+        SoundManager.instance.PlaySound(soundEffect);
         UpdateResourceDisplay();
     }
 
