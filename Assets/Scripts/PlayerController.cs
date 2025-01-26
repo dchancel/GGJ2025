@@ -29,7 +29,13 @@ public class PlayerController : MonoBehaviour
         {
             return;
         }
+        StartCoroutine(WaitForClick());
+    }
 
+    private IEnumerator WaitForClick()
+    {
+
+        yield return new WaitForEndOfFrame();
         if (clickCooldownRoutine == null)
         {
             Vector3 worldPosition = Camera.main.ScreenToWorldPoint(clickPosition);
