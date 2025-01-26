@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: SecondTutorial
   m_EditorClassIdentifier: 
   d:
-  - icon: {fileID: 0}
+  - icon: {fileID: 21300000, guid: fe7e4958eb94e384096cc89d877d4867, type: 3}
     information: Orders can expire now. If an order expires before you can serve
       it, you will fail the day.

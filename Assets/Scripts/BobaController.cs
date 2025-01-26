@@ -23,6 +23,7 @@ public class BobaController : MonoBehaviour
     public GameObject fruitmilkLayer;
     public GameObject milkteaLayer;
     public GameObject teajuiceLayer;
+    public GameObject sludgeLayer;
     public GameObject lidLayer;
 
     private void Start()
@@ -52,6 +53,12 @@ public class BobaController : MonoBehaviour
             milkLayer.SetActive(false);
             milkteaLayer.SetActive(true);
         }
+        else if (fruitmilkLayer.activeInHierarchy)
+        {
+            fruitmilkLayer.SetActive(false);
+            sludgeLayer.SetActive(true);
+            baseType = "Sludge";
+        }
         else
         {
             teaLayer.SetActive(true);
@@ -78,6 +85,12 @@ public class BobaController : MonoBehaviour
             fruitLayer.SetActive(false);
             fruitmilkLayer.SetActive(true);
         }
+        else if (teajuiceLayer.activeInHierarchy)
+        {
+            teajuiceLayer.SetActive(false);
+            sludgeLayer.SetActive(true);
+            baseType = "Sludge";
+        }
         else {
             milkLayer.SetActive(true);
         }
@@ -96,6 +109,12 @@ public class BobaController : MonoBehaviour
         {
             teaLayer.SetActive(false);
             teajuiceLayer.SetActive(true);
+        }
+        else if (milkteaLayer.activeInHierarchy || milkLayer.activeInHierarchy)
+        {
+            milkteaLayer.SetActive(false);
+            sludgeLayer.SetActive(true);
+            baseType = "Sludge";
         }
         else
         {
