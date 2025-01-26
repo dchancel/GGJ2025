@@ -13,22 +13,22 @@ MonoBehaviour:
   m_Name: SO_OrderTemplate
   m_EditorClassIdentifier: 
   cupSprite:
-    sprite: {fileID: -401604794, guid: 355772a4c00b7fe498cb5ff1bdc7d2f3, type: 3}
+    sprite: {fileID: 21300000, guid: e877c720a7908fe48a949fbaec564669, type: 3}
   mixerSprites:
   - mixerType: 0
-    sprite: {fileID: -3971267, guid: 355772a4c00b7fe498cb5ff1bdc7d2f3, type: 3}
+    sprite: {fileID: 21300000, guid: 561d351b948c8af4e9674d170695f142, type: 3}
   - mixerType: 1
-    sprite: {fileID: -1149178789, guid: 355772a4c00b7fe498cb5ff1bdc7d2f3, type: 3}
+    sprite: {fileID: 21300000, guid: 8eabbed11269a4c44a31870122597175, type: 3}
   - mixerType: 2
-    sprite: {fileID: -512830180, guid: 355772a4c00b7fe498cb5ff1bdc7d2f3, type: 3}
+    sprite: {fileID: 21300000, guid: 87397f9ee6f249048b346f56b3d6397e, type: 3}
   solidsSprites:
   - solidsType: 0
     sprite: {fileID: 0}
   - solidsType: 1
-    sprite: {fileID: -734434797, guid: 355772a4c00b7fe498cb5ff1bdc7d2f3, type: 3}
+    sprite: {fileID: 21300000, guid: 1ec2ad4594beb9445aee658893e787cb, type: 3}
   - solidsType: 2
-    sprite: {fileID: -112228270, guid: 355772a4c00b7fe498cb5ff1bdc7d2f3, type: 3}
+    sprite: {fileID: 21300000, guid: 8f551662188260e438e7aced3efae374, type: 3}
   - solidsType: 3
-    sprite: {fileID: -1982131395, guid: 355772a4c00b7fe498cb5ff1bdc7d2f3, type: 3}
+    sprite: {fileID: 21300000, guid: 16566af421747884790a010bbe54942e, type: 3}
   iceSprite:
-    sprite: {fileID: -1071143971, guid: 355772a4c00b7fe498cb5ff1bdc7d2f3, type: 3}
+    sprite: {fileID: 21300000, guid: bf59a9aba18c5b44f96000f469a42a6f, type: 3}
