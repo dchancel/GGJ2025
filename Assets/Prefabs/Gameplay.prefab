@@ -10232,7 +10232,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: GAME NAME
+  m_text: TABBYOCA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 039a72ec85ac2144e87feb629b6d5d67, type: 2}
   m_sharedMaterial: {fileID: 8873383133069336694, guid: 039a72ec85ac2144e87feb629b6d5d67, type: 2}
