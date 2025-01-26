@@ -18,7 +18,9 @@ public class GameManager : MonoBehaviour
     public float maxTimer;
 
     [Header("Order Settings")]
-    public SO_BobaOrder[] orderOptions;
+    public List<SO_BobaOrder> orderOptionsDefault;
+    public List<SO_BobaOrder> orderOptionsBonus1;
+    public List<SO_BobaOrder> orderOptionsBonus2;
     public GameObject ordersBar;
     public float orderInterval;
     public float orderTime;
@@ -150,6 +152,22 @@ public class GameManager : MonoBehaviour
         endOfDay.SetActive(true);
         endOfDay.GetComponent<EndOfDay>().ResetOptions();
         ResetOrders();
+
+        // Add additional orders if specific days (sorry but in a rush)
+        if (day == 2)
+        {
+            for (int i = 0; i < orderOptionsBonus1.Count; i++)
+            {
+                orderOptionsDefault.Add(orderOptionsBonus1[i]);
+            }
+        }
+        if (day == 4)
+        {
+            for (int i = 0; i < orderOptionsBonus2.Count; i++)
+            {
+                orderOptionsDefault.Add(orderOptionsBonus2[i]);
+            }
+        }
     }
 
     public void GameFailed()
@@ -243,8 +261,8 @@ public class GameManager : MonoBehaviour
 #region Order Functions
     private void AddOrder()
     {
-        int r = Random.Range(0, orderOptions.Length);
-        CreateOrder(orderOptions[r]);
+        int r = Random.Range(0, orderOptionsDefault.Count);
+        CreateOrder(orderOptionsDefault[r]);
     }
 
     private void CreateOrder(SO_BobaOrder bo)
