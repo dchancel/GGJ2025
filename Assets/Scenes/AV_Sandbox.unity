@@ -263,6 +263,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 917902642}
     m_Modifications:
+    - target: {fileID: 595367472078123161, guid: 0e912d96b59d2b141b9c12cf793de5e0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9f2326de113adf245ac26e376d066008, type: 3}
     - target: {fileID: 3587435409573263095, guid: 0e912d96b59d2b141b9c12cf793de5e0, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -363,6 +367,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4652885513167587611, guid: 0e912d96b59d2b141b9c12cf793de5e0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4809596846037437783, guid: 0e912d96b59d2b141b9c12cf793de5e0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -451,13 +459,37 @@ PrefabInstance:
       propertyPath: m_Name
       value: Top UI Panel
       objectReference: {fileID: 0}
-    - target: {fileID: 8002556328753403873, guid: 0e912d96b59d2b141b9c12cf793de5e0, type: 3}
+    - target: {fileID: 7473495667156587406, guid: 0e912d96b59d2b141b9c12cf793de5e0, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7473495667156587406, guid: 0e912d96b59d2b141b9c12cf793de5e0, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7473495667156587406, guid: 0e912d96b59d2b141b9c12cf793de5e0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7473495667156587406, guid: 0e912d96b59d2b141b9c12cf793de5e0, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7473495667156587406, guid: 0e912d96b59d2b141b9c12cf793de5e0, type: 3}
+      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8002556328753403873, guid: 0e912d96b59d2b141b9c12cf793de5e0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8002556328753403873, guid: 0e912d96b59d2b141b9c12cf793de5e0, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8002556328753403873, guid: 0e912d96b59d2b141b9c12cf793de5e0, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 68.842896
       objectReference: {fileID: 0}
     - target: {fileID: 8002556328753403873, guid: 0e912d96b59d2b141b9c12cf793de5e0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1601,6 +1633,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1434458699}
   m_CullTransparentMesh: 1
+--- !u!114 &1547753271 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4144276751071235938, guid: 0e912d96b59d2b141b9c12cf793de5e0, type: 3}
+  m_PrefabInstance: {fileID: 353823134}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &1576664129 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4376119810121027498, guid: 0e912d96b59d2b141b9c12cf793de5e0, type: 3}
+  m_PrefabInstance: {fileID: 353823134}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1636361646
 GameObject:
   m_ObjectHideFlags: 0
@@ -2071,9 +2119,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 876143379}
     - target: {fileID: 5587271094528797910, guid: 2fae470e7356da048bbfbc734afcdc7d, type: 3}
+      propertyPath: fallingMoneyText
+      value: 
+      objectReference: {fileID: 1547753271}
+    - target: {fileID: 5587271094528797910, guid: 2fae470e7356da048bbfbc734afcdc7d, type: 3}
       propertyPath: orderEmptySprite
       value: 
       objectReference: {fileID: 9008375805231659811, guid: 3d5a4d539e3764837b190a165e3684f9, type: 3}
+    - target: {fileID: 5587271094528797910, guid: 2fae470e7356da048bbfbc734afcdc7d, type: 3}
+      propertyPath: fallingMoneyAnimator
+      value: 
+      objectReference: {fileID: 1576664129}
     - target: {fileID: 5587271094528797910, guid: 2fae470e7356da048bbfbc734afcdc7d, type: 3}
       propertyPath: orderOptions.Array.size
       value: 1

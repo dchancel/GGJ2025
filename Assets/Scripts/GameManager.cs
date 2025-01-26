@@ -29,6 +29,8 @@ public class GameManager : MonoBehaviour
 
     [Header("UI")]
     public TextMeshProUGUI moneyDisplay;
+    public TextMeshProUGUI fallingMoneyText;
+    public Animator fallingMoneyAnimator;
     public Image timerClock;
     public TextMeshProUGUI dayTimeDisplay;
     public GameObject pauseScreen;
@@ -172,14 +174,21 @@ public class GameManager : MonoBehaviour
         if (CompareOrders(bc))
         {
             money += orderValue;
+            fallingMoneyText.text = "+" + orderValue.ToString();
+            fallingMoneyText.color = Color.green;
             SoundManager.instance.PlaySound(SoundManager.instance.serve);
         }
         else
         {
-            money -= (int)Mathf.Floor((float)orderValue / 2f);
+            int temp = (int)Mathf.Floor((float)orderValue / 2f);
+            money -= temp;
+            fallingMoneyText.text = "-" + temp.ToString();
+            fallingMoneyText.color = Color.red;
             SoundManager.instance.PlaySound(SoundManager.instance.wrongOrder);
         }
-        
+
+        fallingMoneyAnimator.Play("Money Anim");
+
         UpdateMoney();
     }
 
