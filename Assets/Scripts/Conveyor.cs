@@ -253,11 +253,9 @@ public class Conveyor : MonoBehaviour
     {
         if (held != null)
         {
-            Debug.Log("TRYING TO PERFORM SHAKE ON " + held.name);
             //Take the container, shake it, and deposit it onto another conveyor belt upon completion
             if(shakeRoutine == null)
             {
-                Debug.Log("PERFORMING SHAKE ON " + held.name);
                 held.transform.position = outplace.transform.position;
                 shakeRoutine = StartCoroutine(ShakeRoutine(outplace,held));
                 held = null;
