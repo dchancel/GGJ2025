@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class Conveyor : MonoBehaviour
 {
@@ -8,17 +9,26 @@ public class Conveyor : MonoBehaviour
     public bool isServingWindow;
     public bool isStopGap;
 
+    public List<Transform> wheels = new List<Transform>();
+    public bool movingLeft;
+
     private bool holding = false;
     private Coroutine sendRoutine;
 
     private Coroutine tickRoutine;
     private Coroutine shakeRoutine;
 
+    private float wheelSpeed = -200f;
+
     private void Start()
     {
         if (tickRoutine == null)
         {
             tickRoutine = StartCoroutine(Tick());
+        }
+        if (movingLeft)
+        {
+            wheelSpeed = -wheelSpeed;
         }
     }
 
@@ -63,6 +73,14 @@ public class Conveyor : MonoBehaviour
                     {
                         sendRoutine = StartCoroutine(SendObject());
                     }
+                    if(nextConveyor.IsAvailable() || sendRoutine != null)
+                    {
+                        AnimateConveyor();
+                    }
+                }
+                else if (!isStopGap)
+                {
+                    AnimateConveyor();
                 }
             }
 
@@ -113,6 +131,15 @@ public class Conveyor : MonoBehaviour
         }
 
         sendRoutine = null;
+    }
+
+    private void AnimateConveyor()
+    {
+        //occurs every frame
+        for(int i = 0; i < wheels.Count; i++)
+        {
+            wheels[i].Rotate(Vector3.forward, wheelSpeed * (1f/GameManager.instance.conveyorMoveSpeed) * Time.deltaTime);
+        }
     }
 
     public void AddCup(GameObject bc)
