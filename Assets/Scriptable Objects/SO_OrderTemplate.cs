@@ -7,6 +7,7 @@ public class SO_OrderTemplate : ScriptableObject
     public MixerSpriteMapping[] mixerSprites;
     public SolidsSpriteMapping[] solidsSprites;
     public IceSpriteMapping iceSprite;
+    public Sprite teaJuiceSprite;
 
     public Sprite GetCupSprite()
     {

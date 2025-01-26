@@ -277,7 +277,14 @@ public class GameManager : MonoBehaviour
         temp1.GetComponent<Image>().sprite = bo.GetCupSprite();
 
         GameObject temp2 = Instantiate(orderEmptySprite);
-        temp2.GetComponent<Image>().sprite = bo.GetMixerSprite();
+        if (bo.baseType == "Tea" && bo.mixer == MixerType.Juice)
+        {
+            temp2.GetComponent<Image>().sprite = bo.GetTeaJuiceSprite();
+        }
+        else
+        {
+            temp2.GetComponent<Image>().sprite = bo.GetMixerSprite();
+        }
 
         GameObject temp3 = Instantiate(orderEmptySprite);
         temp3.GetComponent<Image>().sprite = bo.GetSolidsSprite();

@@ -34,4 +34,9 @@ public class SO_BobaOrder : ScriptableObject
     {
         return baseTemplate?.GetIceSprite();
     }
+
+    public Sprite GetTeaJuiceSprite()
+    {
+        return baseTemplate.teaJuiceSprite;
+    }
 }
