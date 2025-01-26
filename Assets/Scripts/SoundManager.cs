@@ -33,6 +33,7 @@ public class SoundManager : MonoBehaviour
 
     public void PlaySound(AudioClip ac)
     {
+        aud.pitch = Random.Range(0.9f, 1.4f);
         aud.PlayOneShot(ac);
     }
 

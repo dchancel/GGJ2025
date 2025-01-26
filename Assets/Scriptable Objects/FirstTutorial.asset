@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: FirstTutorial
   m_EditorClassIdentifier: 
   d:
-  - icon: {fileID: 0}
+  - icon: {fileID: 21300000, guid: 1de5ffe84be340649ba67da26b50dc92, type: 3}
     information: Click on a cat to add things to the conveyor in front of them.
-  - icon: {fileID: 0}
+  - icon: {fileID: 21300000, guid: b7189db0c880ca740b149a5ca26caef1, type: 3}
     information: Click on the stations near cats to restock them.
   - icon: {fileID: 0}
     information: Fulfill orders to make money!
-  - icon: {fileID: 0}
+  - icon: {fileID: 21300000, guid: 3c83dbbd5421ea245ae2ea3af9bc09ab, type: 3}
     information: When the day ends, use your profits to upgrade your boba shop.
