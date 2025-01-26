@@ -139,7 +139,7 @@ public class BobaController : MonoBehaviour
     {
         shaken = true;
         lid = true;
-        SoundManager.instance.PlaySound(SoundManager.instance.shake);
+        //SoundManager.instance.PlaySound(SoundManager.instance.shake);
         lidLayer.SetActive(true);
     }
 }

@@ -75,6 +75,11 @@ public class Conveyor : MonoBehaviour
         {
             if (GameManager.instance.isPlaying)
             {
+                if(held == null)
+                {
+                    holding = false;
+                }
+
                 if (!isServingWindow && !isStopGap)
                 {
                     if (nextConveyor.IsAvailable() && held != null && sendRoutine == null && held.transform.position == transform.position)
@@ -268,6 +273,8 @@ public class Conveyor : MonoBehaviour
     {
         float t = 0f;
         bc.gameObject.SetActive(false);
+        ShakerAnimator.instance.StartShake();
+        SoundManager.instance.PlaySound(SoundManager.instance.shake);
         while (t < GameManager.instance.shakeTime)
         {
             if (GameManager.instance.isPlaying)
@@ -281,6 +288,7 @@ public class Conveyor : MonoBehaviour
         bc.ReceiveShake();
         outplace.AddHeld(bc);
         shakeRoutine = null;
+        ShakerAnimator.instance.EndShake();
     }
 
     public void DoTrash()
