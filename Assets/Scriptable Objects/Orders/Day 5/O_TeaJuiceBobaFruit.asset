@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 44909c925623d49b58249ae4f2392f29, type: 3}
-  m_Name: order d
+  m_Name: O_TeaJuiceBobaFruit
   m_EditorClassIdentifier: 
   baseTemplate: {fileID: 11400000, guid: 68325aed46b2e419bb54f1f811be5217, type: 2}
   cup: 1
   baseType: Tea
-  mixer: 0
+  mixer: 2
   solids: 3
   lid: 1
   ice: 1
