@@ -149,6 +149,7 @@ public class EndOfDay : MonoBehaviour
                     break;
             }
             GameManager.instance.money -= possibleUpgrades[index].cost;
+            possibleUpgrades[index].cost += 5;
         }
         gameObject.SetActive(false);
         GameManager.instance.StartNewDay();

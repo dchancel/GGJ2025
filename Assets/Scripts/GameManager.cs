@@ -99,10 +99,10 @@ public class GameManager : MonoBehaviour
             orderIsInfinite = false;
         }
 
-        orderTime *= 0.9f;
+        orderTime *= 0.95f;
         orderTime = Mathf.Clamp(orderTime,20f, 120f);
 
-        orderInterval *= 0.8f;
+        orderInterval *= 0.95f;
         orderInterval = Mathf.Clamp(orderInterval, 3f, 100f);
 
         for(int i = 0; i < dayUpgrades.Count; i++)
