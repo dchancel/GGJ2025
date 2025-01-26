@@ -283,10 +283,13 @@ public class Conveyor : MonoBehaviour
             }
             yield return new WaitForEndOfFrame();
         }
-        bc.transform.position = outplace.transform.position;
-        bc.gameObject.SetActive(true);
-        bc.ReceiveShake();
-        outplace.AddHeld(bc);
+        if (bc.gameObject != null)
+        {
+            bc.transform.position = outplace.transform.position;
+            bc.gameObject.SetActive(true);
+            bc.ReceiveShake();
+            outplace.AddHeld(bc);
+        }
         shakeRoutine = null;
         ShakerAnimator.instance.EndShake();
     }
