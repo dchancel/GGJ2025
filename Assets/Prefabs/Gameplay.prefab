@@ -7718,7 +7718,7 @@ MonoBehaviour:
         m_CallState: 2
   anim: {fileID: 0}
   resourcesAvailable: 0
-  maxResources: 1
+  maxResources: 5
   refreshTime: 2
   refreshWheel: {fileID: 6459362719074272603}
   resourceDisplay: {fileID: 1155104963476811736}
