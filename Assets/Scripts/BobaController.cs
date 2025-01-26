@@ -83,6 +83,10 @@ public class BobaController : MonoBehaviour
             teaLayer.SetActive(false);
             teajuiceLayer.SetActive(true);
         }
+        else
+        {
+            juiceLayer.SetActive(true);
+        }
     }
 
     public void ReceiveTapioca()
@@ -95,6 +99,8 @@ public class BobaController : MonoBehaviour
         {
             solids = SolidsType.Both;
         }
+
+        bobaLayer.SetActive(true);
     }
 
     public void ReceiveFruit()
@@ -107,6 +113,8 @@ public class BobaController : MonoBehaviour
         {
             solids = SolidsType.Both;
         }
+
+        fruitLayer.SetActive(true);
     }
 
     public void ReceiveShake()
