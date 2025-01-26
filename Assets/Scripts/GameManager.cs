@@ -123,7 +123,7 @@ public class GameManager : MonoBehaviour
 #if UNITY_EDITOR
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            isPlaying = !isPlaying;
+            PauseAndResume();
         }
 
         if (Input.GetKeyDown(KeyCode.R))
@@ -131,6 +131,11 @@ public class GameManager : MonoBehaviour
             StartNewDay();
         }
 #endif
+    }
+
+    public void PauseAndResume()
+    {
+        isPlaying = !isPlaying;
     }
 
     private IEnumerator DayTimer()
