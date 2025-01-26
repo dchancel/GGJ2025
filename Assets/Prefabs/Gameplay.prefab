@@ -4124,7 +4124,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.5
+  m_Volume: 0.35
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -6015,7 +6015,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25ead71044f360542af42ca7d840e5cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextConveyor: {fileID: 4464414283970505185}
+  nextConveyor: {fileID: 4908146163418173249}
   held: {fileID: 0}
   isServingWindow: 0
   isStopGap: 0
@@ -8532,7 +8532,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 0
   Mute: 0

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   d:
   - icon: {fileID: 0}
-    information: Click on the a cat to add things to the conveyor in front of them.
+    information: Click on a cat to add things to the conveyor in front of them.
   - icon: {fileID: 0}
     information: Click on the stations near cats to restock them.
   - icon: {fileID: 0}
