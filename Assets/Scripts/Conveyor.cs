@@ -161,7 +161,7 @@ public class Conveyor : MonoBehaviour
 
             conveyorArt.sprite = animSprite[animationIndex];
 
-            framesRemaining = animationFrames;
+            framesRemaining = Mathf.FloorToInt(animationFrames * (1f / GameManager.instance.conveyorMoveSpeed));
         }
     }
 
@@ -253,9 +253,11 @@ public class Conveyor : MonoBehaviour
     {
         if (held != null)
         {
+            Debug.Log("TRYING TO PERFORM SHAKE ON " + held.name);
             //Take the container, shake it, and deposit it onto another conveyor belt upon completion
             if(shakeRoutine == null)
             {
+                Debug.Log("PERFORMING SHAKE ON " + held.name);
                 held.transform.position = outplace.transform.position;
                 shakeRoutine = StartCoroutine(ShakeRoutine(outplace,held));
                 held = null;
@@ -267,6 +269,7 @@ public class Conveyor : MonoBehaviour
     private IEnumerator ShakeRoutine(Conveyor outplace, BobaController bc)
     {
         float t = 0f;
+        bc.gameObject.SetActive(false);
         while (t < GameManager.instance.shakeTime)
         {
             if (GameManager.instance.isPlaying)
@@ -275,6 +278,8 @@ public class Conveyor : MonoBehaviour
             }
             yield return new WaitForEndOfFrame();
         }
+        bc.transform.position = outplace.transform.position;
+        bc.gameObject.SetActive(true);
         bc.ReceiveShake();
         outplace.AddHeld(bc);
         shakeRoutine = null;
