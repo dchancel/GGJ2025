@@ -5892,10 +5892,11 @@ MonoBehaviour:
           m_CallState: 2
   timer: 0
   maxTimer: 60
-  orderOptions:
-  - {fileID: 11400000, guid: 8dfc8676ac3014b32a3fc89b84712b64, type: 2}
+  orderOptionsDefault: []
+  orderOptionsBonus1: []
+  orderOptionsBonus2: []
   ordersBar: {fileID: 0}
-  orderInterval: 10
+  orderInterval: 20
   orderTime: 60
   orderIsInfinite: 0
   orderPrefab: {fileID: 213817515442507245, guid: 485fa8dcf72c6694aaeb0309a464d66c, type: 3}
